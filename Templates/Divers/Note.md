@@ -5,7 +5,7 @@ updated_date: <% tp.file.creation_date('DD/MM/YYYY') %>
 type: note
 ---
 
-#  title
+#  <% tp.file.title.split(" ")[0] %>
 - **🏷️Tags** :  #<% tp.file.creation_date('MM-YYYY') %> 
 
 ## 📝 Notes

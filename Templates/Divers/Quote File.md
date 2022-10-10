@@ -7,7 +7,7 @@ type: quote
 ---
 
 # {{title}}
-- **🏷️Tags** :   #<% tp.file.creation_date('MM-YYYY') %> 
+- **🏷️Tags** :   #<% tp.file.creation_date('MM-YYYY') %>  #quote
 
 > 
 > 

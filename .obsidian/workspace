@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "528943b3df8fefc9",
+        "id": "d1cdb58ffdcb23c3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NOTES/Cyber/MimiPenguin.md",
+            "file": "Templates/Divers/Note.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES/Cyber/MimiPenguin.md",
+                "file": "Templates/Divers/Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES/Cyber/MimiPenguin.md",
+                "file": "Templates/Divers/Note.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES/Cyber/MimiPenguin.md"
+                "file": "Templates/Divers/Note.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "528943b3df8fefc9",
+  "active": "d1cdb58ffdcb23c3",
   "lastOpenFiles": [
-    "Command SOS/Password/Password local et protocols.md",
-    "NOTES/Cyber/MimiPenguin.md",
-    "NOTES/Cyber/LaZagne.py.md",
-    "NOTES/Cyber/wifi/Wifite.md",
-    "NOTES/Cyber/EvilTree.md",
-    "NOTES/Cyber/Fake-SMS.md",
-    "NOTES/Cyber/FireFox_Decrypt.md",
-    "img/Pasted image 20221010191911.png",
-    "img/Pasted image 20221010191927.png",
-    "img/Pasted image 20221010191150.png"
+    "NOTES/OSINT/h8mails ( Finding Email password in Dumps ).md",
+    "NOTES/Sans titre.md",
+    "NOTES/test.md",
+    "Templates/Divers/Note.md",
+    "Templates/Divers/People.md",
+    "Templates/Divers/Book.md",
+    "Templates/Divers/Lecture.md",
+    "Templates/Divers/Quote File.md",
+    "Templates/Divers/Resource.md",
+    "Templates/Divers/Reading List.md"
   ]
 }

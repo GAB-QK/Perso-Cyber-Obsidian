@@ -6,7 +6,7 @@ type: book
 year: 
 ---
 
-# 📚 {{title}} 
+# 📚 title
 - **🏷️Tags** :   #<% tp.file.creation_date('MM-YYYY') %> #book
 - Link: 
 ## 📝 Notes

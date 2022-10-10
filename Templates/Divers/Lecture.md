@@ -5,7 +5,7 @@ updated_date: <% tp.file.creation_date('DD/MM/YYYY') %>
 type: lecture
 ---
 
-# 📚 {{title}} 
+# 📚 title
 - **🏷️Tags** :  #<% tp.file.creation_date('MM-YYYY') %> #lecture 
 - Link: 
 ## 📝 Notes

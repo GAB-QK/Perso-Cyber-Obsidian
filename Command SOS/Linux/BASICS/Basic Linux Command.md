@@ -1,5 +1,6 @@
 #command
 #basics
+[[Linux]]
 
 | **Command** | **Description** |
 | --------------|-------------------|

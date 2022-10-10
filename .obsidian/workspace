@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Password/Password local et protocoles.md",
+            "file": "NOTES/Cheat Sheets/VS code Sheet.md",
             "mode": "source",
             "source": false
           }
@@ -77,14 +77,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Password/Password local et protocoles.md",
+                "file": "NOTES/Cheat Sheets/VS code Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -94,8 +94,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Password/Password local et protocoles.md",
-                "linksCollapsed": false,
+                "file": "NOTES/Cheat Sheets/VS code Sheet.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -107,7 +107,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -117,28 +117,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Password/Password local et protocoles.md"
+                "file": "NOTES/Cheat Sheets/VS code Sheet.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "21727f9dc37c5487",
+  "active": "528943b3df8fefc9",
   "lastOpenFiles": [
-    "Templates/Daily/Daily Note.md",
-    "Templates/Course.md",
-    "Templates/Company.md",
-    "Templates/Book.md",
-    "Templates/Note.md",
-    "Templates/Lecture.md",
-    "Templates/Library.md",
-    "Templates/Month Tag.md",
-    "Templates/Note extraction.md",
-    "Templates/Paper.md"
+    "NOTES/Cheat Sheets/Linux Permissions.md",
+    "NOTES/Cheat Sheets/Python basicSheet.md",
+    "NOTES/Cheat Sheets/VS code Sheet.md",
+    "NOTES/Mind-MAP(To do).md",
+    "Templates/MindMap/MindMap_1.md",
+    "NOTES/OSINT/h8mails ( Finding Email password in Dumps ).md",
+    "NOTES/OSINT/Wigle Wifi.md",
+    "NOTES/Cyber/wifi/Wifite.md",
+    "NOTES/Cyber/Fake-SMS.md",
+    "Templates/Divers/Note.md"
   ]
 }

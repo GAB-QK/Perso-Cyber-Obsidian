@@ -1,4 +1,5 @@
 #msfconsole #msfvenome
+[basic]()
 
 ## MSFconsole Commands 
 

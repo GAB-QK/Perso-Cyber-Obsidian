@@ -1,3 +1,5 @@
+#basics #tools #linux
+
 ## Basic Tools 
 
 | **Command**   | **Description**   |

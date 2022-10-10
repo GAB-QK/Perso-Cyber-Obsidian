@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d1cdb58ffdcb23c3",
+        "id": "c0c53f5459870fa8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templates/Divers/Note.md",
+            "file": "Command SOS/Password/Password local et protocols.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#command",
+                "query": "tag:#linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 560
   },
   "right": {
     "id": "fc2719227cfec426",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Divers/Note.md",
+                "file": "Command SOS/Password/Password local et protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Divers/Note.md",
+                "file": "Command SOS/Password/Password local et protocols.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Divers/Note.md"
+                "file": "Command SOS/Password/Password local et protocols.md"
               }
             }
           }
@@ -126,19 +126,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "d1cdb58ffdcb23c3",
+  "active": "c0c53f5459870fa8",
   "lastOpenFiles": [
+    "Templates/MindMap/MindMap_1.md",
+    "Command SOS/Linux/BASICS/Basic Linux Command.md",
+    "Command SOS/Linux/BASICS/Basic MDF Console.md",
+    "Command SOS/Password/Password local et protocols.md",
+    "Command SOS/WEB/XSS Cross-Site Scripting.md",
+    "XSS Cross-Site Scripting.md",
+    "Templates/Divers/Note.md",
     "NOTES/OSINT/h8mails ( Finding Email password in Dumps ).md",
     "NOTES/Sans titre.md",
-    "NOTES/test.md",
-    "Templates/Divers/Note.md",
-    "Templates/Divers/People.md",
-    "Templates/Divers/Book.md",
-    "Templates/Divers/Lecture.md",
-    "Templates/Divers/Quote File.md",
-    "Templates/Divers/Resource.md",
-    "Templates/Divers/Reading List.md"
+    "NOTES/test.md"
   ]
 }

@@ -1,0 +1,111 @@
+
+sudo apt install vim git ssh apache2 php libapache2-mod-php php-mysql mariadb-server zip
+
+sudo mkdir /srv/http
+
+cd /srv/http/
+
+sudo git clone https://github.com/WordPress/WordPress.git
+sudo vim /etc/apache2/ports.config
+
+sudo chown -R gabriel:www-data /srv/http
+sudo chmod -R 2750 /srv/http
+
++ Listen 8080
+
+sudo vim /etc/apache2/sites-available/000-default.conf
+<VirtualHost *:8080>
+        #ServerName trucdechose.dev
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /srv/http
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>
+
+sudo vim /etc/apache2/apache2.conf
+
+<Directory /srv/http>
+	Require all granted
+</Directory>
+
+sudo systemctl reload apache2
+
+sudo mysql_secure_installation
+sudo systemctl start mariadb
+sudo mariadb
+CREATE USER gabriel@localhost IDENTIFIED BY "password";
+CREATE DATABASE `wordpress`;
+GRANT ALL PRIVILEGES ON `wordpress`.* TO gabriel@localhost;
+FLUSH PRIVILEGES;
+
+cd /srv/http/wordpress
+
+sudo vim wp-config.php
+
+cd /srv/http/
+
+sudo git clone https://github.com/digininja/DVWA.git
+
+cd /srv/http/DVWA/config
+
+sudo mv config.inc.php.dist config.inc.php
+
+mysql
+mysql> create database dvwa;
+Query OK, 1 row affected 
+
+mysql> create user dvwa@localhost identified by 'p@ssw0rd';
+Query OK, 0 rows affected 
+
+mysql> grant all on dvwa.* to dvwa@localhost;
+Query OK, 0 rows affected 
+
+mysql> flush privileges;
+Query OK, 0 rows affected 
+```
+sudo chmod -R ug+w hackable/
+
+cd /etc/php/7.4/apache2/
+
+sudo vim php.ini
+
+allow_url_include = on
+
+allow_url_fopen = on
+
+sudo chmod -R ug+w /srv/http/DVWA/hackable/uploads/
+sudo chown -R gabriel:www-data /srv/http/DVWA/hackable/uploads/
+sudo chmod ug+w /srv/http/DVWA/config
+sudo chown gabriel:www-data /srv/http/DVWA/config
+
+sudo systemctl reload apache2
+
+sudo apt install php-fpm libapache2-mod-fcgid php-cgi
+
+sudo a2dismod php7.4
+sudo a2enmod fcgi proxy proxy_fcgi
+
+sudo vim /etc/apache2/sites-available/
+
+<FilesMatch "\.php$>
+                SetHandler "proxy:unix:/run/php/php7.4-fpm.sock|fcgi://localhost/"
+</FilesMatch>
+
+cd /etc/php/7.4/fpm/pool.d
+
+sudo cp www.conf dvwa.confcd
+
+modifier
+; pool name ('www' here)
+[dvwa]
+
+
+listen = /run/php/php-fpm-dvwa.sock
+sudo systemctl reload apache2
+sudo systemctl reload php7.4-fpm
+
+possible de gerer de manière granulaire pool /etc/php/7.4/fpm/pool.d
+

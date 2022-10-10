@@ -1,4 +1,4 @@
-#msfconsole #msfvenome
+#msfconsole #msfvenome #command #linux 
 [basic]()
 
 ## MSFconsole Commands 

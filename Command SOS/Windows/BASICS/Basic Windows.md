@@ -1,5 +1,4 @@
-#command
-#basics 
+#command #basics #windows
 
 | **Command** | **Description** |
 | --------------|-------------------|

@@ -1,4 +1,4 @@
-#basics #tools #linux
+#basics #tools #linux #command 
 
 ## Basic Tools 
 

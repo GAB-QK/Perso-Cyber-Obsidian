@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NOTES/Cheat Sheets/VS code Sheet.md",
+            "file": "NOTES/Cyber/LaZagne.py.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#command",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES/Cheat Sheets/VS code Sheet.md",
+                "file": "NOTES/Cyber/LaZagne.py.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES/Cheat Sheets/VS code Sheet.md",
+                "file": "NOTES/Cyber/LaZagne.py.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES/Cheat Sheets/VS code Sheet.md"
+                "file": "NOTES/Cyber/LaZagne.py.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "528943b3df8fefc9",
+  "active": "21727f9dc37c5487",
   "lastOpenFiles": [
-    "NOTES/Cheat Sheets/Linux Permissions.md",
-    "NOTES/Cheat Sheets/Python basicSheet.md",
-    "NOTES/Cheat Sheets/VS code Sheet.md",
-    "NOTES/Mind-MAP(To do).md",
-    "Templates/MindMap/MindMap_1.md",
-    "NOTES/OSINT/h8mails ( Finding Email password in Dumps ).md",
-    "NOTES/OSINT/Wigle Wifi.md",
     "NOTES/Cyber/wifi/Wifite.md",
+    "NOTES/Cyber/EvilTree.md",
     "NOTES/Cyber/Fake-SMS.md",
-    "Templates/Divers/Note.md"
+    "NOTES/Cyber/FireFox_Decrypt.md",
+    "NOTES/Cyber/LaZagne.py.md",
+    "img/Pasted image 20221010191911.png",
+    "img/Pasted image 20221010191927.png",
+    "img/Pasted image 20221010191150.png",
+    "img/Pasted image 20221010185410.png",
+    "img/Pasted image 20221010184938.png"
   ]
 }

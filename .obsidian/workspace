@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Password/Password local.md",
+            "file": "Password/Password local et protocoles.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Password/Password local.md",
+                "file": "Password/Password local et protocoles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Password/Password local.md",
+                "file": "Password/Password local et protocoles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Password/Password local.md"
+                "file": "Password/Password local et protocoles.md"
               }
             }
           }
@@ -128,9 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "528943b3df8fefc9",
+  "active": "21727f9dc37c5487",
   "lastOpenFiles": [
-    "Password/Password local.md",
-    "Linux/BASICS/Basic Tools.md"
+    "Templates/Daily/Daily Note.md",
+    "Templates/Course.md",
+    "Templates/Company.md",
+    "Templates/Book.md",
+    "Templates/Note.md",
+    "Templates/Lecture.md",
+    "Templates/Library.md",
+    "Templates/Month Tag.md",
+    "Templates/Note extraction.md",
+    "Templates/Paper.md"
   ]
 }

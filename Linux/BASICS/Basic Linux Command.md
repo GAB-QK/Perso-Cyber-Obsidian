@@ -1,3 +1,6 @@
+#command
+#basics
+
 | **Command** | **Description** |
 | --------------|-------------------|
 | `man <tool>` | Opens man pages for the specified tool. | 

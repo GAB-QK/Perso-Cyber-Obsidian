@@ -1,3 +1,6 @@
+#command
+#basics 
+
 | **Command** | **Description** |
 | --------------|-------------------|
 | `xfreerdp /v:<target IP address> /u:htb-student /p:<password>` | RDP to lab target |

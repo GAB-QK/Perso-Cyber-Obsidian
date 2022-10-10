@@ -1,4 +1,4 @@
-#password #brutforce
+#password #brutforce #zip 
 
 ## Connecting to Target
 

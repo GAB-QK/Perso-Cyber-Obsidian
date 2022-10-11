@@ -6,7 +6,7 @@ type: note
 ---
 
 #  Fake-SMS
-- **🏷️Tags** :  #10-2022 #SocialEngineering #sms 
+- **🏷️Tags** :  #10-2022 #SocialEngineering #sms #tools 
 
 ## 📝 Notes
 - A simple Script to send sms anonymously.

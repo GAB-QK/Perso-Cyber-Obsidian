@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NOTES/Cyber/BruteXSS.md",
+            "file": "NOTES/Cyber/Escalation/LinPeas.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES/Cyber/BruteXSS.md",
+                "file": "NOTES/Cyber/Escalation/LinPeas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES/Cyber/BruteXSS.md",
+                "file": "NOTES/Cyber/Escalation/LinPeas.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES/Cyber/BruteXSS.md"
+                "file": "NOTES/Cyber/Escalation/LinPeas.md"
               }
             }
           }
@@ -131,15 +131,15 @@
   },
   "active": "c0c53f5459870fa8",
   "lastOpenFiles": [
-    "NOTES/Cyber/XSS Strike.md",
-    "NOTES/Cyber/XSSer.md",
-    "NOTES/Cyber/BruteXSS.md",
-    "NOTES/Cyber/EvilTree.md",
-    "NOTES/Cyber/Fake-SMS.md",
-    "NOTES/Cyber/FireFox_Decrypt.md",
+    "NOTES/Cyber/Escalation/LinEnum.md",
+    "NOTES/Cyber/XSS/BruteXSS.md",
+    "NOTES/Cyber/XSS/XSS Strike.md",
+    "NOTES/Cyber/XSS/XSSer.md",
+    "NOTES/Cyber/Divers/EvilTree.md",
+    "NOTES/Cyber/Divers/Fake-SMS.md",
+    "NOTES/Cyber/passwd/FireFox_Decrypt.md",
     "NOTES/Cyber/payent/ZAP.md",
     "NOTES/Cyber/payent/Nessus.md",
-    "NOTES/Cyber/payent/BurpPro.md",
-    "NOTES/Cyber/LaZagne.py.md"
+    "NOTES/Cyber/payent/BurpPro.md"
   ]
 }

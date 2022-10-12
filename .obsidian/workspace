@@ -7,12 +7,8 @@
         "id": "c0c53f5459870fa8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "moîse.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "moîse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "moîse.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "moîse.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -131,6 +123,7 @@
   },
   "active": "c0c53f5459870fa8",
   "lastOpenFiles": [
+    "moîse.md",
     "Command SOS/Linux/BASICS/Basic Linux Command.md",
     "Command SOS/Linux/BASICS/Basic MDF Console.md",
     "Command SOS/Password/Password local et protocols.md",
@@ -139,7 +132,6 @@
     "NOTES/Cyber/Escalation/LinEnum.md",
     "NOTES/Cyber/XSS/BruteXSS.md",
     "NOTES/Cyber/XSS/XSS Strike.md",
-    "NOTES/Cyber/XSS/XSSer.md",
-    "NOTES/Cyber/Divers/EvilTree.md"
+    "NOTES/Cyber/XSS/XSSer.md"
   ]
 }

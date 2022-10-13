@@ -7,12 +7,8 @@
         "id": "c0c53f5459870fa8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "test.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "test.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -129,7 +121,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c0c53f5459870fa8",
+  "active": "21727f9dc37c5487",
   "lastOpenFiles": [
     "Command SOS/WEB/XSS Cross-Site Scripting.md",
     "moîse.md",

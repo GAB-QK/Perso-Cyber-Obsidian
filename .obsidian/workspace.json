@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Shell basics.md",
-                "mode": "source",
+                "file": "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Shell basics.md",
+                "file": "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Shell basics.md",
+                "file": "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Shell basics.md"
+                "file": "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md"
               }
             }
           }
@@ -142,9 +142,9 @@
   },
   "active": "798ab799e2c43887",
   "lastOpenFiles": [
-    "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
-    "Command SOS/Linux/BASICS/Shell basics.md",
     "Command SOS/Linux/BASICS/Payloads.md",
+    "Command SOS/Linux/BASICS/Shell basics.md",
+    "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
     "Command SOS/Linux/BASICS/Basic Tools.md",
     "Command SOS/Linux/BASICS/Basic MDF Console.md",
     "Command SOS/Linux/BASICS/Basic Linux Command.md",

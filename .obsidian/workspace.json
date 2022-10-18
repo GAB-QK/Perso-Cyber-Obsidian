@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/WEB/XSS Payloads.md",
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "fc2719227cfec426",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/WEB/XSS Payloads.md",
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/WEB/XSS Payloads.md",
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/WEB/XSS Payloads.md"
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md"
               }
             }
           }
@@ -155,6 +156,7 @@
   },
   "active": "b00267f0bfedeed7",
   "lastOpenFiles": [
+    "Command SOS/WEB/XSS Payloads Angular.md",
     "Command SOS/WEB/XSS Cross-Site Scripting.md",
     "Command SOS/Linux/BASICS/Basic MDF Console.md",
     "().md",
@@ -163,7 +165,6 @@
     "Command SOS/Linux/BASICS/Basic Linux Command.md",
     "Templates/Divers/Note.md",
     "Templates/Divers/People.md",
-    "Templates/Divers/Resource.md",
-    "Templates/Divers/Reading List.md"
+    "Templates/Divers/Resource.md"
   ]
 }

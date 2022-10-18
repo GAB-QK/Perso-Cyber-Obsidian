@@ -1,4 +1,4 @@
-C# Reverse Shell Cheat Sheet
+#CheatSheet #linux #payloads #shell #python #bash
 
 ## Summary
 

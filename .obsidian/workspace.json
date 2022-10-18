@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
+                "file": "Command SOS/Linux/BASICS/Shell basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tools",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
+                "file": "Command SOS/Linux/BASICS/Shell basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
+                "file": "Command SOS/Linux/BASICS/Shell basics.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md"
+                "file": "Command SOS/Linux/BASICS/Shell basics.md"
               }
             }
           }
@@ -142,15 +142,15 @@
   },
   "active": "798ab799e2c43887",
   "lastOpenFiles": [
-    "Command SOS/Linux/BASICS/Payloads.md",
+    "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
     "Command SOS/Linux/BASICS/Shell basics.md",
-    "Command SOS/WEB/XSS Cross-Site Scripting.md",
-    "Command SOS/WEB/XSS Payloads Angular.md",
+    "Command SOS/Linux/BASICS/Payloads.md",
+    "Command SOS/Linux/BASICS/Basic Tools.md",
     "Command SOS/Linux/BASICS/Basic MDF Console.md",
-    "().md",
-    "NOTES/CyberTools/wifi/wifiPhisher.md",
-    "Command SOS/Windows/BASICS/Basic Windows.md",
     "Command SOS/Linux/BASICS/Basic Linux Command.md",
-    "Templates/Divers/Note.md"
+    "Command SOS/Password/Password local et protocols.md",
+    "().md",
+    "Command SOS/WEB/XSS Cross-Site Scripting.md",
+    "Command SOS/WEB/XSS Payloads Angular.md"
   ]
 }

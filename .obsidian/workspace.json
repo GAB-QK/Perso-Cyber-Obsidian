@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/CyberTools/wifi/wifiPhisher.md",
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "092da29637368e29",
+            "id": "b00267f0bfedeed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "Command SOS/WEB/XSS Payloads.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#linux",
+                "query": "tag:#tools",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "Command SOS/WEB/XSS Payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "Command SOS/WEB/XSS Payloads.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md"
+                "file": "Command SOS/WEB/XSS Payloads.md"
               }
             }
           }
@@ -153,17 +153,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "092da29637368e29",
+  "active": "b00267f0bfedeed7",
   "lastOpenFiles": [
-    "NOTES/CyberTools/wifi/Wifite.md",
-    "NOTES/CyberTools/wifi/AirGeddon.md",
-    "NOTES/CyberTools/wifi/wifiPhisher.md",
-    "Command SOS/Linux/BASICS/Basic MDF Console.md",
     "Command SOS/WEB/XSS Cross-Site Scripting.md",
-    "NOTES/CyberTools/XSS/XSSer.md",
-    "NOTES/CyberTools/XSS/BruteXSS.md",
-    "NOTES/CyberTools/XSS/XSS Strike.md",
-    "Templates/MindMap/MindMap_1.md",
-    "NOTES/Cyber/tools test.md"
+    "Command SOS/Linux/BASICS/Basic MDF Console.md",
+    "().md",
+    "NOTES/CyberTools/wifi/wifiPhisher.md",
+    "Command SOS/Windows/BASICS/Basic Windows.md",
+    "Command SOS/Linux/BASICS/Basic Linux Command.md",
+    "Templates/Divers/Note.md",
+    "Templates/Divers/People.md",
+    "Templates/Divers/Resource.md",
+    "Templates/Divers/Reading List.md"
   ]
 }

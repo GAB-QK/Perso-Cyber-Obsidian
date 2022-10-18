@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0c53f5459870fa8",
+            "id": "8c1a45b54d8ea4f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
-                "mode": "source",
+                "file": "NOTES/CyberTools/wifi/wifiPhisher.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 560,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "fc2719227cfec426",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "NOTES/CyberTools/wifi/wifiPhisher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "NOTES/CyberTools/wifi/wifiPhisher.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md"
+                "file": "NOTES/CyberTools/wifi/wifiPhisher.md"
               }
             }
           }
@@ -141,17 +140,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c0c53f5459870fa8",
+  "active": "8c1a45b54d8ea4f3",
   "lastOpenFiles": [
+    "Command SOS/Linux/BASICS/Basic MDF Console.md",
+    "NOTES/CyberTools/wifi/wifiPhisher.md",
+    "Command SOS/WEB/XSS Cross-Site Scripting.md",
     "NOTES/CyberTools/XSS/XSSer.md",
     "NOTES/CyberTools/XSS/BruteXSS.md",
     "NOTES/CyberTools/XSS/XSS Strike.md",
-    "Command SOS/WEB/XSS Cross-Site Scripting.md",
     "Templates/MindMap/MindMap_1.md",
     "NOTES/Cyber/tools test.md",
     "NOTES/CyberTools/Divers/EvilTree.md",
-    "NOTES/CyberTools/Divers/Fake-SMS.md",
-    "NOTES/CyberTools/Divers/PayloasEverything.md",
-    "NOTES/CyberTools/Escalation/LinEnum.md"
+    "NOTES/CyberTools/Divers/Fake-SMS.md"
   ]
 }

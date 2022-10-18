@@ -50,3 +50,9 @@ if (isset($_GET['c'])) {
     }
 }
 ```
+
+#### Utilisation des entrées directe :
+- Code Javascript<script></script>
+- Code de style CSS<style></style>
+- Champs de balise/attribut<div name='INPUT'></div>
+- Commentaires HTML<!-- -->

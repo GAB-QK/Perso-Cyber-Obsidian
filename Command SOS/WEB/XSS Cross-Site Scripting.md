@@ -24,7 +24,8 @@
 | `sudo php -S 0.0.0.0:80 `                                                                     | Start `PHP` server                |
 
 
-### Utilisation d'un payload XSS avec un script Php pour récuperer les cookies d'une sessions
+### Utilisation d'un payload XSS avec un script PHP pour récuperer les cookies d'une session
+
 Utilisation d'un **payload XSS** appelant un fichier **js** avec lui même une requête sur les cookies de la sessions et appel d'un fichier **php** pour récuperer au clair les informations dans un txt.
 
 #### Payload avec connexion à notre propre serveur php

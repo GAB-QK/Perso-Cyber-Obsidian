@@ -1,3 +1,8 @@
 {
-  "attachmentFolderPath": "img"
+  "attachmentFolderPath": "img",
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "fr",
+    "en-GB"
+  ]
 }

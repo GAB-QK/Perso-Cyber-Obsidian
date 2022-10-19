@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/Password/Password local et protocols.md",
-                "mode": "source",
+                "file": "Command SOS/WEB/XSS Payloads Angular.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/Password/Password local et protocols.md",
+                "file": "Command SOS/WEB/XSS Payloads Angular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/Password/Password local et protocols.md",
+                "file": "Command SOS/WEB/XSS Payloads Angular.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/Password/Password local et protocols.md"
+                "file": "Command SOS/WEB/XSS Payloads Angular.md"
               }
             }
           }
@@ -140,17 +140,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "798ab799e2c43887",
+  "active": "21727f9dc37c5487",
   "lastOpenFiles": [
-    "Command SOS/Linux/BASICS/Shell & Payloads.md",
-    "Command SOS/Linux/BASICS/Reverse Shell Cheatsheet.md",
-    "Command SOS/Linux/BASICS/Basic Tools.md",
-    "Command SOS/Linux/BASICS/Basic MDF Console.md",
-    "Command SOS/Linux/BASICS/Basic Linux Command.md",
+    "Command SOS/WEB/XSS Cross-Site Scripting.md",
+    "Command SOS/Password/Password local et protocols.md",
+    "Command SOS/Linux/Shell & Payloads.md",
+    "Command SOS/Linux/Reverse Shell Cheatsheet.md",
+    "Command SOS/Linux/Basic Tools.md",
+    "Command SOS/Linux/Basic MDF Console.md",
+    "Command SOS/Linux/Basic Linux Command.md",
     "NOTES/CyberTools/Divers/EvilTree.md",
     "NOTES/Cheat Sheets/VS code Sheet.md",
-    "NOTES/Cheat Sheets/Python basicSheet.md",
-    "NOTES/Cheat Sheets/Linux Permissions.md",
-    "Command SOS/Linux/BASICS/Payloads.md"
+    "NOTES/Cheat Sheets/Python basicSheet.md"
   ]
 }

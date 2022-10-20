@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/Linux/Shell & Payloads.md",
-                "mode": "source",
+                "file": "Command SOS/Linux/Reverse Shell Cheatsheet.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/Linux/Shell & Payloads.md",
+                "file": "Command SOS/Linux/Reverse Shell Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/Linux/Shell & Payloads.md",
+                "file": "Command SOS/Linux/Reverse Shell Cheatsheet.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/Linux/Shell & Payloads.md"
+                "file": "Command SOS/Linux/Reverse Shell Cheatsheet.md"
               }
             }
           }
@@ -142,9 +142,9 @@
   },
   "active": "f00f3b4e56aafbb3",
   "lastOpenFiles": [
+    "Command SOS/Linux/Shell & Payloads.md",
     "Command SOS/Linux/Reverse Shell Cheatsheet.md",
     "Command SOS/Linux/Basic Linux Command.md",
-    "Command SOS/Linux/Shell & Payloads.md",
     "Command SOS/Linux/Basic Tools.md",
     "Command SOS/Windows/Basic Windows.md",
     "_Divers_/Templates/Divers/Note.md",

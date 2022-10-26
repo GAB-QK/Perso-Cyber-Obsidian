@@ -66,9 +66,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "44efd8625993daac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command SOS/Linux/BASH/5-BASH and Scripting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39ea4c8dd6d112c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command SOS/Linux/BASH/6-BASH and Scripting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fb509d15cf50cdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command SOS/Linux/BASH/7-BASH and Scripting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -134,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/Linux/BASH/4-BASH and Scripting.md",
+                "file": "Command SOS/Linux/BASH/7-BASH and Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/Linux/BASH/4-BASH and Scripting.md",
+                "file": "Command SOS/Linux/BASH/7-BASH and Scripting.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/Linux/BASH/4-BASH and Scripting.md"
+                "file": "Command SOS/Linux/BASH/7-BASH and Scripting.md"
               }
             }
           }
@@ -189,17 +225,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "21727f9dc37c5487",
+  "active": "3fb509d15cf50cdb",
   "lastOpenFiles": [
-    "Command SOS/Linux/BASH/3-BASH and Scripting.md",
+    "Command SOS/Linux/BASH/6-BASH and Scripting.md",
+    "Command SOS/Linux/BASH/5-BASH and Scripting.md",
     "Command SOS/Linux/BASH/4-BASH and Scripting.md",
-    "Command SOS/Linux/BASH/1-BASH and Scripting.md",
     "Command SOS/Linux/BASH/2-BASH an Scripting.md",
+    "Command SOS/Linux/BASH/3-BASH and Scripting.md",
+    "Command SOS/Linux/BASH/1-BASH and Scripting.md",
     "Command SOS/Linux/Basic Linux Command.md",
     "Command SOS/Linux/Shell & Payloads.md",
     "Command SOS/Linux/Reverse Shell Cheatsheet.md",
-    "Command SOS/Linux/Basic Tools.md",
-    "Command SOS/Windows/Basic Windows.md",
-    "_Divers_/Templates/Divers/Note.md"
+    "Command SOS/Linux/Basic Tools.md"
   ]
 }

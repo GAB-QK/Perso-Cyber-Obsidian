@@ -130,6 +130,31 @@ else
 fi
 ```
 
+### Exercice 
+
+Créez une condition "If-Else" dans la boucle "For" qui vérifie si la variable nommée "var" contient le contenu de la variable nommée "value". De plus, la variable "var" doit contenir plus de 113 450 caractères. Si ces conditions sont remplies, le script doit alors imprimer les 20 derniers caractères de la variable "var". Soumettez ces 20 derniers caractères comme réponse.
+
+Code : bash
+
+```bash
+#!/bin/bash
+
+var="8dm7KsjU28B7v621Jls"
+value="ERmFRMVZ0U2paTlJYTkxDZz09Cg"
+
+for i in {1..40}
+do
+        var=$(echo $var | base64)
+		
+		#<---- If condition here:
+done
+```
+
+Démarrer l'instance
+
+**réponse**
+
+![[Pasted image 20221026231648.png]]
 ## Questions/Thoughts
 
 

@@ -1,8 +1,9 @@
 {
-  "attachmentFolderPath": "img",
+  "attachmentFolderPath": "_Divers_/img",
   "spellcheck": true,
   "spellcheckLanguages": [
     "fr",
     "en-GB"
-  ]
+  ],
+  "promptDelete": false
 }

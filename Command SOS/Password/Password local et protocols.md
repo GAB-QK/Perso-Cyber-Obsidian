@@ -1,3 +1,4 @@
+#10-2022 #command #password #linux #windows #CheatSheet #permission #credentials 
 
 ## Connecting to Target
 

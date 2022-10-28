@@ -74,6 +74,28 @@ GabrielQK@htb[/htb]$ echo ${PATH:0:1}
 /
 ```
 
+We can do the same with the `$HOME` or `$PWD` environment variables as well. We can also use the same concept to get a semi-colon character, to be used as an injection operator. For example, the following command gives us a semi-colon:
+
+```shell-session
+GabrielQK@htb[/htb]$ echo ${LS_COLORS:10:1}
+
+;
+```
+
+## Character Shifting
+
+There are other techniques to produce the required characters without using them, like `shifting characters`. For example, the following Linux command shifts the character we pass by `1`. So, all we have to do is find the character in the ASCII table that is just before our needed character (we can get it with `man ascii`), then add it instead of `[` in the below example. This way, the last printed character would be the one we need:
+
+```shell-session
+GabrielQK@htb[/htb]$ man ascii     # \ is on 92, before it is [ on 91
+GabrielQK@htb[/htb]$ echo $(tr '!-}' '"-~'<<<[)
+
+\
+```
+
+
+
+
 ## Questions/Thoughts
 
 

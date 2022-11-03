@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
-                "mode": "source",
+                "file": "Command SOS/Linux/Injection de commandes SC.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "fc2719227cfec426",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "Command SOS/Linux/Injection de commandes SC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "Command SOS/Linux/Injection de commandes SC.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md"
+                "file": "Command SOS/Linux/Injection de commandes SC.md"
               }
             }
           }
@@ -188,12 +189,12 @@
   },
   "active": "4f977e3e00b45520",
   "lastOpenFiles": [
-    "Tools SOS/CyberTools/Ofuscation/Bashfuscator-DOSfuscation.md",
     "Command SOS/Linux/Injections de Commandes.md",
+    "Command SOS/WEB/XSS Cross-Site Scripting.md",
+    "Tools SOS/CyberTools/Ofuscation/Bashfuscator-DOSfuscation.md",
     "Command SOS/Linux/Injection de commandes SC.md",
     "Command SOS/Linux/Login Brut Forcing.md",
     "_Divers_/img/cheatsheet-103.md",
-    "Command SOS/WEB/XSS Cross-Site Scripting.md",
     "Command SOS/WEB/XSS Payloads Angular.md",
     "Command SOS/Linux/Injections de Commandes SC.md",
     "Command SOS/Linux/Reverse Shell Cheatsheet.md",

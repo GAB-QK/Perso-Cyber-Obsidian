@@ -1,12 +1,12 @@
 ---
-id: Sans
+id: Bashfuscator
 created_date: 03/11/2022
 updated_date: 03/11/2022
 type: note
 ---
 
 #  Sans
-- **🏷️Tags** :  #11-2022 
+- **🏷️Tags** :  #11-2022 #injection #ofuscation #bash #payloads #browser 
 
 ## 📝 Notes
 

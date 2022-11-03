@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools SOS/CyberTools/Ofuscation/Sans titre.md",
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xss",
+                "query": "tag:#deofuscation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools SOS/CyberTools/Ofuscation/Sans titre.md",
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools SOS/CyberTools/Ofuscation/Sans titre.md",
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools SOS/CyberTools/Ofuscation/Sans titre.md"
+                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md"
               }
             }
           }
@@ -186,8 +186,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "21727f9dc37c5487",
+  "active": "4f977e3e00b45520",
   "lastOpenFiles": [
+    "Tools SOS/CyberTools/Ofuscation/Bashfuscator-DOSfuscation.md",
     "Command SOS/Linux/Injections de Commandes.md",
     "Command SOS/Linux/Injection de commandes SC.md",
     "Command SOS/Linux/Login Brut Forcing.md",
@@ -196,7 +197,6 @@
     "Command SOS/WEB/XSS Payloads Angular.md",
     "Command SOS/Linux/Injections de Commandes SC.md",
     "Command SOS/Linux/Reverse Shell Cheatsheet.md",
-    "Command SOS/Password/Password local et protocols.md",
-    "Command SOS/Password/Introduction to Brute Forcing SC.md"
+    "Command SOS/Password/Password local et protocols.md"
   ]
 }

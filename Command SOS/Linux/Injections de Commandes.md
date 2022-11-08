@@ -102,6 +102,23 @@ ip=127.0.0.1%0als${IFS}${PATH:0:1}home
 ```bash
 ip=127.0.0.0%0ac'a't${IFS}${PATH:0:1}home${PATH:0:1}1nj3c70r${PATH:0:1}flag.txt
 ```
+
+#### Skill Assesment Solution
+
+Contexte:
+connexion sur un site avec les creds suivants guest:guest, on arrive sur un site de File Manager.
+
+première étape on cherche a trouver un vecteur d'attaque, premièrement j'ai utiliser BurpSuite pour pouvoir récupérer les différents POST et determiner un axe d'attaque.
+
+à part le "recherche avancer" aucune autres interventions n'utilisais de méthodes POST. 
+
+![[Pasted image 20221108133257.png]]
+
+On finit par se rendre compte en cherchant qu'il est possible de déplacer les fichiers et que cette méthode utilise la commande bash "mv" on essaie donc d'attaquer sur cet axe.
+
+
+
+
 ## Questions/Thoughts
 
 

@@ -58,4 +58,4 @@ if (isset($_GET['c'])) {
 - Code Javascript<script></script>
 - Code de style CSS<style></style>
 - Champs de balise/attribut<div name='INPUT'></div>
-- Commentaires HTML<!-- --> test 
+- Commentaires HTML<!-- --> 

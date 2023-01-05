@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "22979fb77cf308c4",
+        "id": "8b01265765fb6b47",
         "type": "tabs",
         "children": [
           {
-            "id": "0838ade667fc18cc",
+            "id": "9dae19310a596b92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c50355825e8027f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command SOS/WEB/1_SSRF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42b3f480abb80218",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2_SSRF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "i",
+                "query": "tools",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "2_SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
+                "file": "2_SSRF.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md"
+                "file": "2_SSRF.md"
               }
             }
           }
@@ -137,17 +162,29 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0838ade667fc18cc",
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "42b3f480abb80218",
   "lastOpenFiles": [
-    "Tools SOS/CyberTools/Divers/EvilTree.md",
-    "Command SOS/Linux/Login Brut Forcing.md",
+    "Command SOS/WEB/1_SSRF.md",
+    "test.md",
+    "Command SOS/Password/Password local et protocols.md",
     "Command SOS/WEB/XSS Cross-Site Scripting.md",
     "Command SOS/Linux/Shell & Payloads.md",
     "Command SOS/Linux/Reverse Shell Cheatsheet.md",
+    "Command SOS/Linux/Login Brut Forcing.md",
+    "Command SOS/Linux/Injections de Commandes.md",
     "Command SOS/Password/Introduction to Brute Forcing SC.md",
-    "Command SOS/Linux/Injection de commandes SC.md",
-    "Command SOS/Linux/Basic Tools.md",
-    "Command SOS/Linux/Basic Linux Command.md",
-    "Command SOS/Linux/Injections de Commandes.md"
+    "Command SOS/Password/Introduction to Brute Forcing.md"
   ]
 }

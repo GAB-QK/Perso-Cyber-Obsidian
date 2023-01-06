@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "821cd1f072af507a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3_SSRF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/WEB/2_SSRF.md",
+                "file": "3_SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/WEB/2_SSRF.md",
+                "file": "3_SSRF.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/WEB/2_SSRF.md"
+                "file": "3_SSRF.md"
               }
             }
           }
@@ -174,8 +186,9 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "21727f9dc37c5487",
+  "active": "821cd1f072af507a",
   "lastOpenFiles": [
+    "Command SOS/WEB/2_SSRF.md",
     "Command SOS/WEB/1_SSRF.md",
     "test.md",
     "Command SOS/Password/Password local et protocols.md",
@@ -184,7 +197,6 @@
     "Command SOS/Linux/Reverse Shell Cheatsheet.md",
     "Command SOS/Linux/Login Brut Forcing.md",
     "Command SOS/Linux/Injections de Commandes.md",
-    "Command SOS/Password/Introduction to Brute Forcing SC.md",
-    "Command SOS/Password/Introduction to Brute Forcing.md"
+    "Command SOS/Password/Introduction to Brute Forcing SC.md"
   ]
 }

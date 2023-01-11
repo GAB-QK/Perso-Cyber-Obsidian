@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9dae19310a596b92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command SOS/WEB/XSS Cross-Site Scripting.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c50355825e8027f8",
             "type": "leaf",
             "state": {
@@ -55,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/WEB/3_SSRF.md",
+                "file": "Command SOS/WEB/1_SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/WEB/3_SSRF.md",
+                "file": "Command SOS/WEB/1_SSRF.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/WEB/3_SSRF.md"
+                "file": "Command SOS/WEB/1_SSRF.md"
               }
             }
           }
@@ -186,17 +173,17 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "21727f9dc37c5487",
+  "active": "c50355825e8027f8",
   "lastOpenFiles": [
+    "wesley.md",
+    "Command SOS/Password/Introduction to Brute Forcing.md",
+    "Command SOS/Linux/Reverse Shell Cheatsheet.md",
+    "Command SOS/Password/Introduction to Brute Forcing SC.md",
+    "Command SOS/Linux/Basic Linux Command.md",
+    "Command SOS/WEB/3_SSRF.md",
     "Command SOS/WEB/2_SSRF.md",
     "Command SOS/WEB/1_SSRF.md",
-    "test.md",
-    "Command SOS/Password/Password local et protocols.md",
     "Command SOS/WEB/XSS Cross-Site Scripting.md",
-    "Command SOS/Linux/Shell & Payloads.md",
-    "Command SOS/Linux/Reverse Shell Cheatsheet.md",
-    "Command SOS/Linux/Login Brut Forcing.md",
-    "Command SOS/Linux/Injections de Commandes.md",
-    "Command SOS/Password/Introduction to Brute Forcing SC.md"
+    "test.md"
   ]
 }

@@ -14,9 +14,9 @@ type: note
 
 
 ```bash
-sudo iwconfig wlan1 down
-sudo ifconfig wlan1 mode monitor
-sudo iwconfig wlan1 up
+sudo ifconfig wlan1 down
+sudo iwconfig wlan1 mode monitor
+sudo ifconfig wlan1 up
 ```
 
 pour tester si sa carte est compatible utiliser la commande :

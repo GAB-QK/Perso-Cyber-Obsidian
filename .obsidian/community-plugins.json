@@ -3,5 +3,6 @@
   "templater-obsidian",
   "obsidian-mind-map",
   "table-editor-obsidian",
-  "obsidian-emoji-toolbar"
+  "obsidian-emoji-toolbar",
+  "cmenu-plugin"
 ]

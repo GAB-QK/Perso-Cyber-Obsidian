@@ -57,7 +57,7 @@ type: note
 
 ## # Firewall and IDS/IPS Evasion Exemple
 
-La méthode d'analyse TCP ACK ( ) de Nmap `-sA`est beaucoup plus difficile à filtrer pour les pare-feux et les systèmes IDS/IPS que `-sS`les analyses SYN ( ) ou Connect ( `sT`) classiques car elles n'envoient qu'un paquet TCP avec uniquement le `ACK`drapeau. Lorsqu'un port est fermé ou ouvert, l'hôte doit répondre par un `RST`indicateur. Contrairement aux connexions sortantes, toutes les tentatives de connexion (avec le `SYN`drapeau) à partir de réseaux externes sont généralement bloquées par des pare-feu. Cependant, les paquets avec l' `ACK`indicateur sont souvent passés par le pare-feu car le pare-feu ne peut pas déterminer si la connexion a d'abord été établie à partir du réseau externe ou du réseau interne.
+La méthode d'analyse TCP ACK ( ) de Nmap `-sA` est beaucoup plus difficile à filtrer pour les pare-feux et les systèmes IDS/IPS que `-sS` les analyses SYN ( ) ou Connect ( `sT` ) classiques car elles n'envoient qu'un paquet TCP avec uniquement le `ACK` drapeau. Lorsqu'un port est fermé ou ouvert, l'hôte doit répondre par un `RST` indicateur. Contrairement aux connexions sortantes, toutes les tentatives de connexion (avec le `SYN` drapeau) à partir de réseaux externes sont généralement bloquées par des pare-feu. Cependant, les paquets avec l' `ACK` indicateur sont souvent passés par le pare-feu car le pare-feu ne peut pas déterminer si la connexion a d'abord été établie à partir du réseau externe ou du réseau interne.
 
 ### SYN-Scan
 

@@ -61,6 +61,17 @@ aircrack-ng -a2 -b <BSSID> -w /chemi/du/dico.txt ./chemi/du/fichier/cap/enregist
 
 ```
 
+debrider carte alfa 
+
+
+```bash
+sudo ifconfig wlan1 down  
+sudo iw reg set BZ  
+sudo iwconfig wlan1 txpower 30  
+sudo ifconfig wlan1 up  
+iwconfig
+
+```
 
 
 ## Questions/Thoughts

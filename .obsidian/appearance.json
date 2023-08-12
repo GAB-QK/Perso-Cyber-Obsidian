@@ -1,5 +1,8 @@
 {
   "cssTheme": "Dracula for Obsidian",
   "accentColor": "",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "snippet"
+  ]
 }

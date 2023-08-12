@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/Write_up/PWN/You know 0xDiablos.md",
+                "file": "_Divers_/Templates/Divers/Note.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "privil",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/Write_up/PWN/You know 0xDiablos.md",
+                "file": "_Divers_/Templates/Divers/Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/Write_up/PWN/You know 0xDiablos.md",
+                "file": "_Divers_/Templates/Divers/Note.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -145,12 +145,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/Write_up/PWN/You know 0xDiablos.md"
+                "file": "_Divers_/Templates/Divers/Note.md"
               }
+            }
+          },
+          {
+            "id": "2063e08b46c71dc9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -171,42 +179,42 @@
   },
   "active": "64ad4e2279178453",
   "lastOpenFiles": [
+    "Command SOS/Linux/NMAP.md",
+    "Cours/Network/Network Traffic Analysis_1.md",
+    "Command SOS/WEB/XSS Cross-Site Scripting.md",
+    "Cours/Network/Network basics_9.md",
+    "Command SOS/Linux/Création d'un VENV.md",
+    "Command SOS/Linux/BASH/2-BASH an Scripting.md",
+    "Command SOS/Linux/Basic MSF Console.md",
+    "Command SOS/Password/Password local et protocols.md",
+    "Command SOS/Linux/Basic Tools.md",
+    "Command SOS/Linux/Shell & Payloads.md",
+    "Command SOS/Password/Introduction to Brute Forcing.md",
+    "Command SOS/Windows/Basic Windows.md",
+    "Command SOS/Write_up/PWN/Racecar.md",
+    "Command SOS/Write_up/PWN/You know 0xDiablos.md",
+    "_Divers_/img/Pasted image 20230620122520.png",
+    "_Divers_/img/Pasted image 20230620122303.png",
+    "_Divers_/img/Pasted image 20230620121844.png",
+    "_Divers_/img/Pasted image 20230620121725.png",
+    "_Divers_/img/Pasted image 20230619163815.png",
+    "_Divers_/img/Pasted image 20230619162625.png",
+    "_Divers_/img/Pasted image 20230619162234.png",
+    "_Divers_/img/Pasted image 20230619161940.png",
+    "_Divers_/img/Pasted image 20230619160708.png",
+    "_Divers_/img/Pasted image 20230619160421.png",
     "Cours/python librairies/Beautifulsoup (web scrapper ).md",
     "Cours/Network/Network basics_6.md",
-    "Cours/Network/Network basics_9.md",
-    "Command SOS/Write_up/PWN/You know 0xDiablos.md",
-    "Command SOS/Windows/Basic Windows.md",
     "Command SOS/WEB/XSS Payloads Angular.md",
-    "Command SOS/WEB/XSS Cross-Site Scripting.md",
     "Command SOS/WEB/WebHook Discord.md",
     "Command SOS/WEB/3_SSRF.md",
     "Command SOS/WEB/1_SSRF.md",
     "Command SOS/Pentesting Process/Introduction.md",
     "Command SOS/Pentesting Process/Types d'environements.md",
     "Command SOS/Password/Introduction to Brute Forcing SC.md",
-    "Command SOS/Password/Password local et protocols.md",
-    "Command SOS/Password/Introduction to Brute Forcing.md",
     "Command SOS/OSINT/Emplacements.md",
     "Command SOS/OSINT/CheatSheets.md",
     "Command SOS/Linux/wifi_crack_hashcat.md",
-    "Command SOS/Linux/wifi_crack.md",
-    "BashBunny/Command.md",
-    "Cours/python librairies/Beautifulsoup_2 (web scrapper ) .md",
-    "Cours/Network/Network basics_3.md",
-    "Cours/Network/Network basics_4.md",
-    "Cours/Network/Network basics_5.md",
-    "Cours/Network/Network basics_7.md",
-    "Cours/Network/Network basics_8.md",
-    "_Divers_/img/Pasted image 20230616162442.png",
-    "_Divers_/img/Pasted image 20230616162542.png",
-    "_Divers_/img/Pasted image 20230616162727.png",
-    "_Divers_/img/Pasted image 20230616162818.png",
-    "_Divers_/img/Pasted image 20230616162947.png",
-    "_Divers_/img/Pasted image 20230616163327.png",
-    "_Divers_/img/Pasted image 20230616163509.png",
-    "_Divers_/img/Pasted image 20230616163644.png",
-    "_Divers_/img/Pasted image 20230619110946.png",
-    "_Divers_/img/Pasted image 20230619111927.png",
     "Cours/python librairies",
     "Cours/Network",
     "Cours",

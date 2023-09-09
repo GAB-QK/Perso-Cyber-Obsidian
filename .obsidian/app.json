@@ -1,10 +1,7 @@
 {
   "attachmentFolderPath": "_Divers_/img",
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-US",
-    "fr-FR"
-  ],
+  "spellcheckLanguages": null,
   "promptDelete": false,
   "pdfExportSettings": {
     "includeName": false,

@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Divers_/Templates/Divers/Note.md",
+                "file": "Cours/python/x_in_y.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "994ea1c413bfb886",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Divers_/Templates/Divers/Book.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf585e0127a73f96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/python librairies/Beautifulsoup (web scrapper ).md",
+                "file": "Cours/python/Beautifulsoup (web scrapper ).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "privil",
+                "query": "sql",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Divers_/Templates/Divers/Note.md",
+                "file": "note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Divers_/Templates/Divers/Note.md",
+                "file": "note.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Divers_/Templates/Divers/Note.md"
+                "file": "note.md"
               }
             }
           },
@@ -177,16 +202,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "64ad4e2279178453",
+  "active": "cf585e0127a73f96",
   "lastOpenFiles": [
+    "_Divers_/Templates/Divers/Book.md",
+    "note.md",
+    "Command SOS/Linux/Reverse Shell Cheatsheet.md",
+    "Command SOS/Password/Password local et protocols.md",
+    "Cours/Network/Network basics_9.md",
+    "Command SOS/Linux/wifi_crack.md",
+    "_Divers_/Templates/Divers/interesting_Web_site.md",
+    "Cours/python/x_in_y.md",
+    "_Divers_/Templates/Divers/Note.md",
     "Command SOS/Linux/NMAP.md",
     "Cours/Network/Network Traffic Analysis_1.md",
     "Command SOS/WEB/XSS Cross-Site Scripting.md",
-    "Cours/Network/Network basics_9.md",
     "Command SOS/Linux/Création d'un VENV.md",
     "Command SOS/Linux/BASH/2-BASH an Scripting.md",
     "Command SOS/Linux/Basic MSF Console.md",
-    "Command SOS/Password/Password local et protocols.md",
     "Command SOS/Linux/Basic Tools.md",
     "Command SOS/Linux/Shell & Payloads.md",
     "Command SOS/Password/Introduction to Brute Forcing.md",
@@ -203,19 +235,12 @@
     "_Divers_/img/Pasted image 20230619161940.png",
     "_Divers_/img/Pasted image 20230619160708.png",
     "_Divers_/img/Pasted image 20230619160421.png",
-    "Cours/python librairies/Beautifulsoup (web scrapper ).md",
+    "Cours/python/Beautifulsoup (web scrapper ).md",
     "Cours/Network/Network basics_6.md",
     "Command SOS/WEB/XSS Payloads Angular.md",
     "Command SOS/WEB/WebHook Discord.md",
     "Command SOS/WEB/3_SSRF.md",
-    "Command SOS/WEB/1_SSRF.md",
-    "Command SOS/Pentesting Process/Introduction.md",
-    "Command SOS/Pentesting Process/Types d'environements.md",
-    "Command SOS/Password/Introduction to Brute Forcing SC.md",
-    "Command SOS/OSINT/Emplacements.md",
-    "Command SOS/OSINT/CheatSheets.md",
-    "Command SOS/Linux/wifi_crack_hashcat.md",
-    "Cours/python librairies",
+    "Cours/python",
     "Cours/Network",
     "Cours",
     "Command SOS/OSINT",

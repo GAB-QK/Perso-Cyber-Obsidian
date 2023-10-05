@@ -153,6 +153,36 @@ Ces 3 instructions représente le `Prologue`.
 
 Un autre point important concernant la représentation de l’assembleur est la dénomination des registres. Cela dépend du format dans lequel le binaire a été compilé. Nous avons utilisé GCC pour compiler le bow. c code en format 32 bits. Maintenant, compilons le même code dans un format 64 bits.
 
+```bash
+student@nix-bow:~$ gdb -q bow64
+
+Reading symbols from bow64...(no debugging symbols found)...done.
+(gdb) disas main
+
+Dump of assembler code for function main:
+   0x00000000000006bc <+0>: 	push   rbp
+   0x00000000000006bd <+1>: 	mov    rbp,rsp
+   0x00000000000006c0 <+4>: 	sub    rsp,0x10
+   0x00000000000006c4 <+8>:  	mov    DWORD PTR [rbp-0x4],edi
+   0x00000000000006c7 <+11>:	mov    QWORD PTR [rbp-0x10],rsi
+   0x00000000000006cb <+15>:	mov    rax,QWORD PTR [rbp-0x10]
+   0x00000000000006cf <+19>:	add    rax,0x8
+   0x00000000000006d3 <+23>:	mov    rax,QWORD PTR [rax]
+   0x00000000000006d6 <+26>:	mov    rdi,rax
+   0x00000000000006d9 <+29>:	call   0x68a <bowfunc>
+   0x00000000000006de <+34>:	lea    rdi,[rip+0x9f]
+   0x00000000000006e5 <+41>:	call   0x560 <puts@plt>
+   0x00000000000006ea <+46>:	mov    eax,0x1
+   0x00000000000006ef <+51>:	leave  
+   0x00000000000006f0 <+52>:	ret    
+End of assembler dump.
+```
+
+Cependant, nous examinerons d’abord la version 32 bits du binaire vulnérable. L’instruction la plus importante pour nous à l’heure actuelle est l’instruction `call`. L’instruction `call` est utilisée pour appeler une fonction et effectue deux opérations :
+
+1. il pousse l’adresse de retour sur la pile de sorte que l’exécution du programme puisse être poursuivie après que la fonction ait atteint son objectif,
+2. il remplace ` (EIP)` `par la destination` de l’appel et commence l’exécution.
+
 ## Questions/Thoughts
 
 

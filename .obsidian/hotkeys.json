@@ -43,5 +43,14 @@
       ],
       "key": "L"
     }
+  ],
+  "cmenu-plugin:codeblock": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
   ]
 }

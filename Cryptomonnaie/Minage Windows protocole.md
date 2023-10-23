@@ -38,6 +38,57 @@ Le minage de cryptomonnaie sur Windows sans interface graphique (GUI) nécessite
 
 N'oubliez pas de prendre en compte les coûts énergétiques et la rentabilité potentielle avant de vous lancer dans le minage. Assurez-vous également de respecter les lois et réglementations locales concernant le minage de cryptomonnaie.
 
+## scripting exemple 
+
+```batch
+@echo off
+setx GPU_FORCE_64BIT_PTR 0
+setx GPU_MAX_HEAP_SIZE 100
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+
+cgminer --scrypt -o stratum+tcp://nomdupool.com:port -u VotreAdressePortefeuille -p x --gpu-platform 0 -d 0 -I 18 -w 256 --thread-concurrency 8192
+```
+
+**Explication :**
+- `@echo off` : Désactive l'affichage de chaque commande dans la console.
+- `setx` : Configure des variables d'environnement pour optimiser les performances de la carte graphique.
+- `cgminer` : C'est la commande pour exécuter CGMiner.
+- `--scrypt` : Spécifie l'algorithme de hachage utilisé pour miner Ethereum.
+- `-o stratum+tcp://nomdupool.com:port` : Remplacez "nomdupool.com" et "port" par les détails de votre pool de minage.
+- `-u VotreAdressePortefeuille` : Remplacez "VotreAdressePortefeuille" par votre propre adresse de portefeuille Ethereum.
+- `-p x` : Spécifiez le mot de passe du pool (ici, il est laissé vide).
+- `--gpu-platform 0 -d 0` : Indique le numéro de la plateforme GPU et de la carte graphique à utiliser.
+- `-I 18` : Configure l'intensité du minage. Vous pouvez ajuster cette valeur en fonction de la performance de votre matériel.
+- `-w 256` : Spécifie la largeur du worksize.
+- `--thread-concurrency 8192` : Configure la concurrence des threads.
+
+N'oubliez pas de remplacer les éléments en majuscules par vos propres informations. Assurez-vous également que CGMiner et les pilotes de votre carte graphique sont installés correctement.
+
+Sauvegardez ce script avec une extension ".bat" (par exemple, "minage_ethereum.bat") et exécutez-le pour démarrer le processus de minage. Assurez-vous d'adapter les paramètres en fonction de votre matériel et de votre pool de minage.
+
+
+## Automatisation du script 
+### méthode 1:
+
+Pour exécuter automatiquement le processus de minage à l'ouverture ou à l'allumage de votre ordinateur personnel sous Windows, vous pouvez suivre ces étapes :
+
+**1. Créer un raccourci du script :**
+   - Faites un clic droit sur votre script de minage (par exemple, "minage_ethereum.bat").
+   - Sélectionnez "Créer un raccourci".
+
+**2. Copier le raccourci dans le dossier de démarrage :**
+   - Appuyez sur la touche Windows + R pour ouvrir la boîte de dialogue "Exécuter".
+   - Tapez "shell:startup" et appuyez sur Entrée. Cela ouvrira le dossier de démarrage de l'utilisateur.
+
+**3. Placer le raccourci dans le dossier :**
+   - Copiez le raccourci que vous avez créé à l'étape 1 et collez-le dans le dossier qui vient de s'ouvrir.
+
+Désormais, chaque fois que vous démarrez ou ouvrez votre ordinateur, le script de minage sera exécuté automatiquement.
+
+
+
 ## Questions/Thoughts
 
 

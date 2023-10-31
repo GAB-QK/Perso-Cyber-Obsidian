@@ -1,6 +1,6 @@
 {
-  "cssTheme": "Atom",
-  "accentColor": "#3963b1",
+  "cssTheme": "Blue Topaz",
+  "accentColor": "#4674c8",
   "baseFontSize": 23,
   "enabledCssSnippets": [
     "snippet"

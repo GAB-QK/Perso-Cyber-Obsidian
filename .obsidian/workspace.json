@@ -56,19 +56,41 @@
             }
           },
           {
-            "id": "9ef1d97377f84474",
+            "id": "35ffae8fe03eb1bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/python/Beautifulsoup (web scrapper ).md",
+                "file": "keeper.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "1889ab8ae67b7ecc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "keeper.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d50bbe9cf1df48e0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-10-31 04.44.36.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -97,7 +119,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "hydra",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
     "id": "fc2719227cfec426",
@@ -143,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "X86_Linux/GDB.md",
+                "file": "Excalidraw/Drawing 2023-10-31 04.44.36.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "X86_Linux/GDB.md",
+                "file": "Excalidraw/Drawing 2023-10-31 04.44.36.excalidraw.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "X86_Linux/GDB.md"
+                "file": "Excalidraw/Drawing 2023-10-31 04.44.36.excalidraw.md"
               }
             }
           },
@@ -215,6 +236,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -225,31 +247,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "602ce97577eace74",
+  "active": "d50bbe9cf1df48e0",
   "lastOpenFiles": [
-    "note.md",
+    "keeper.md",
+    "Excalidraw/Drawing 2023-10-31 04.44.36.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-31 04.44.14.excalidraw.md",
+    "_Divers_/img/Pasted image 20231029140911.png",
+    "swag.md",
+    "write_UP/BOX/hackthebox/easy/nteeon.md",
+    "Cours/python/x_in_y.md",
+    "_Divers_/Templates/Divers/Note.md",
+    "Cours/python/Beautifulsoup (web scrapper ).md",
     "X86_Linux/GDB.md",
+    "Excalidraw/Drawing 2023-10-27 12.35.31.excalidraw.md",
+    "Command SOS/Password/Password local et protocols.md",
+    "write_UP/BOX/hackthebox/easy",
+    "write_UP/BOX/hackthebox",
+    "write_UP/BOX",
+    "write_UP",
+    "Command SOS/Linux/Login Brut Forcing.md",
+    "Command SOS/Password/Introduction to Brute Forcing SC.md",
+    "Command SOS/Password/Introduction to Brute Forcing.md",
+    "Excalidraw/Drawing 2023-10-27 12.35.37.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-27 11.38.44.excalidraw.md",
+    "Excalidraw",
+    "note.md",
     "X86_Linux",
     "_Divers_/Templates/Divers/Book.md",
     "Command SOS/Linux/Reverse Shell Cheatsheet.md",
-    "Command SOS/Password/Password local et protocols.md",
     "Cours/Network/Network basics_9.md",
     "Command SOS/Linux/wifi_crack.md",
     "_Divers_/Templates/Divers/interesting_Web_site.md",
-    "Cours/python/x_in_y.md",
-    "_Divers_/Templates/Divers/Note.md",
     "Command SOS/Linux/NMAP.md",
     "Cours/Network/Network Traffic Analysis_1.md",
     "Command SOS/WEB/XSS Cross-Site Scripting.md",
     "Command SOS/Linux/Création d'un VENV.md",
-    "Command SOS/Linux/BASH/2-BASH an Scripting.md",
-    "Command SOS/Linux/Basic MSF Console.md",
-    "Command SOS/Linux/Basic Tools.md",
-    "Command SOS/Linux/Shell & Payloads.md",
-    "Command SOS/Password/Introduction to Brute Forcing.md",
-    "Command SOS/Windows/Basic Windows.md",
-    "Command SOS/Write_up/PWN/Racecar.md",
-    "Command SOS/Write_up/PWN/You know 0xDiablos.md",
     "_Divers_/img/Pasted image 20230620122520.png",
     "_Divers_/img/Pasted image 20230620122303.png",
     "_Divers_/img/Pasted image 20230620121844.png",
@@ -259,16 +291,9 @@
     "_Divers_/img/Pasted image 20230619162234.png",
     "_Divers_/img/Pasted image 20230619161940.png",
     "_Divers_/img/Pasted image 20230619160708.png",
-    "_Divers_/img/Pasted image 20230619160421.png",
-    "Cours/python/Beautifulsoup (web scrapper ).md",
-    "Cours/Network/Network basics_6.md",
-    "Command SOS/WEB/XSS Payloads Angular.md",
-    "Command SOS/WEB/WebHook Discord.md",
     "Cours/python",
     "Cours/Network",
     "Cours",
-    "Command SOS/OSINT",
-    "StormShield",
-    "Command SOS/Pentesting Process"
+    "Command SOS/OSINT"
   ]
 }

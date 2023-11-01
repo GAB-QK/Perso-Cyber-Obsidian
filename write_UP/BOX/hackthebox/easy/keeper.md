@@ -109,7 +109,7 @@ ensuite il suffit de se connecter directement en ssh en précisant bien la clé 
 ssh root@10.10.10.10 -i id_rsa
 ```
 
-
+On récupère ensuite le flag root.
 ## Questions/Thoughts
 
 

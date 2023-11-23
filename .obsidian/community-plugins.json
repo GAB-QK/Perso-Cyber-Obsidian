@@ -6,5 +6,8 @@
   "obsidian-emoji-toolbar",
   "obsidian-excalidraw-plugin",
   "obsidian-style-settings",
-  "cmenu-plugin"
+  "cmenu-plugin",
+  "execute-code",
+  "obsidian-kanban",
+  "lovely-mindmap"
 ]

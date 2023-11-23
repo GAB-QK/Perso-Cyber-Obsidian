@@ -41,7 +41,7 @@ on souhaite ici récupérer le handshake et pour cela on va avoir besoin du BSSI
 
 ```bash
 
-sudo airodump-ng -c 6 --bssid 44:D4:54:ED:F9:60 -w ~/Bureau wlan1
+sudo airodump-ng -c 6 --bssid 44:D4:54:ED:F9:60 --output-format pcap -w ~/Bureau wlan1
 
 ```
 

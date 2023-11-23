@@ -8,24 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35ffae8fe03eb1bc",
+            "id": "84a24a8b45c5ea2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "write_UP/BOX/hackthebox/easy/keeper.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0b975d69555b121e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-11-01 19.08.56.excalidraw.md"
               }
             }
           }
@@ -58,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wifi",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "write_UP/BOX/hackthebox/easy/keeper.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "write_UP/BOX/hackthebox/easy/keeper.md",
+                "file": "README.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "write_UP/BOX/hackthebox/easy/keeper.md"
+                "file": "README.md"
               }
             }
           },
@@ -164,9 +154,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "800bfd4aa436f7cf",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -186,18 +184,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "35ffae8fe03eb1bc",
+  "active": "84a24a8b45c5ea2b",
   "lastOpenFiles": [
-    "_Divers_/img/Pasted image 20231101195813.png",
-    "_Divers_/img/Pasted image 20231101194023.png",
-    "_Divers_/img/Pasted image 20231101193628.png",
+    "Command SOS/Linux/wifi_crack.md",
     "Excalidraw/Drawing 2023-11-01 19.08.56.excalidraw.md",
+    "Cours/Relation client",
+    "Excalidraw/Drawing 2023-11-10 10.32.48.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-08 11.28.05.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-10 10.32.18.excalidraw.md",
+    "_Divers_/img/Pasted Image 20231110103235_461.png",
+    "Excalidraw/Drawing 2023-11-08 11.28.05.excalidraw.png",
+    "write_UP/BOX/hackthebox/easy/SAU.md",
+    "_Divers_/img/Pasted image 20231103122932.png",
+    "_Divers_/img/Pasted image 20231103122653.png",
+    "_Divers_/img/Pasted image 20231103115629.png",
+    "_Divers_/img/Pasted image 20231103115607.png",
+    "_Divers_/img/Pasted image 20231103112833.png",
+    "_Divers_/img/Pasted image 20231103112723.png",
+    "_Divers_/img/Pasted image 20231103112616.png",
     "write_UP/BOX/hackthebox/easy/keeper.md",
-    "_Divers_/img/Pasted image 20231101193115.png",
-    "_Divers_/img/Pasted image 20231101192919.png",
-    "_Divers_/img/Pasted image 20231101192601.png",
-    "_Divers_/img/Pasted image 20231101192548.png",
-    "_Divers_/img/Pasted image 20231101192241.png",
+    "Command SOS/Linux/NMAP.md",
+    "README.md",
+    "_Divers_/img/Pasted image 20231101195813.png",
     "Excalidraw/Drawing 2023-10-31 04.44.36.excalidraw.md",
     "Excalidraw/Drawing 2023-10-31 04.44.14.excalidraw.md",
     "Excalidraw/Drawing 2023-10-27 12.35.37.excalidraw.md",
@@ -206,8 +214,6 @@
     "X86_Linux/GDB.md",
     "note.md",
     "_Divers_/Templates/Divers/Book.md",
-    "Command SOS/Linux/wifi_crack.md",
-    "_Divers_/img/Pasted image 20231029140911.png",
     "swag.md",
     "write_UP/BOX/hackthebox/easy/nteeon.md",
     "Cours/python/x_in_y.md",
@@ -220,19 +226,10 @@
     "write_UP",
     "Command SOS/Linux/Login Brut Forcing.md",
     "Command SOS/Password/Introduction to Brute Forcing SC.md",
-    "Command SOS/Password/Introduction to Brute Forcing.md",
     "Excalidraw",
     "X86_Linux",
-    "Command SOS/Linux/Reverse Shell Cheatsheet.md",
-    "Cours/Network/Network basics_9.md",
-    "_Divers_/Templates/Divers/interesting_Web_site.md",
-    "Command SOS/Linux/NMAP.md",
-    "Cours/Network/Network Traffic Analysis_1.md",
-    "_Divers_/img/Pasted image 20230620122520.png",
-    "_Divers_/img/Pasted image 20230620122303.png",
     "Cours/python",
     "Cours/Network",
-    "Cours",
-    "Command SOS/OSINT"
+    "Cours"
   ]
 }

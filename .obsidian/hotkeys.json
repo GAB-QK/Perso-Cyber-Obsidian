@@ -52,5 +52,14 @@
       ],
       "key": "B"
     }
+  ],
+  "lovely-mindmap:blurNode": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": " "
+    }
   ]
 }

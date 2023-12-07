@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Command SOS/Write_up/PWN/You know 0xDiablos.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "92214a8f7acfdc23",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wifi",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -184,17 +189,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "84a24a8b45c5ea2b",
+  "active": "92214a8f7acfdc23",
   "lastOpenFiles": [
-    "Command SOS/Linux/wifi_crack.md",
-    "Excalidraw/Drawing 2023-11-01 19.08.56.excalidraw.md",
-    "Cours/Relation client",
-    "Excalidraw/Drawing 2023-11-10 10.32.48.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-07 16.01.16.excalidraw.md",
     "Excalidraw/Drawing 2023-11-08 11.28.05.excalidraw.md",
-    "Excalidraw/Drawing 2023-11-10 10.32.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-10 10.32.48.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-01 19.08.56.excalidraw.md",
+    "Command SOS/Write_up/PWN/You know 0xDiablos.md",
+    "Cours/Network/Network basics_1.md",
+    "Cours/Network/Network basics_2.md",
+    "X86_Linux/GDB.md",
+    "Tools SOS/OSINTTools/Wigle Wifi.md",
+    "Tools SOS/OSINTTools/h8mails ( Finding Email password in Dumps ).md",
+    "Tools SOS/CyberTools/payent/ZAP.md",
+    "Tools SOS/CyberTools/payent/Nessus.md",
+    "Tools SOS/CyberTools/payent/BurpPro.md",
+    "Tools SOS/CyberTools/Escalation/LinPeas.md",
+    "Tools SOS/CyberTools/Escalation/LinEnum.md",
+    "Tools SOS/CyberTools/Divers/PayloasEverything.md",
+    "Tools SOS/CyberTools/Divers/Fake-SMS.md",
+    "Tools SOS/CyberTools/Divers/EvilTree.md",
+    "Tools SOS/Cheat Sheets/VS code Sheet.md",
+    "Tools SOS/Cheat Sheets/Python basicSheet.md",
+    "Tools SOS/Cheat Sheets/Linux Permissions.md",
+    "Cryptomonnaie/Minage Windows protocole.md",
+    "Command SOS/Linux/wifi_crack.md",
+    "note.md",
+    "2023-11-23.md",
+    "Untitled.canvas",
+    "README.md",
+    "Cours/Relation client",
     "_Divers_/img/Pasted Image 20231110103235_461.png",
     "Excalidraw/Drawing 2023-11-08 11.28.05.excalidraw.png",
-    "write_UP/BOX/hackthebox/easy/SAU.md",
     "_Divers_/img/Pasted image 20231103122932.png",
     "_Divers_/img/Pasted image 20231103122653.png",
     "_Divers_/img/Pasted image 20231103115629.png",
@@ -202,30 +228,11 @@
     "_Divers_/img/Pasted image 20231103112833.png",
     "_Divers_/img/Pasted image 20231103112723.png",
     "_Divers_/img/Pasted image 20231103112616.png",
-    "write_UP/BOX/hackthebox/easy/keeper.md",
-    "Command SOS/Linux/NMAP.md",
-    "README.md",
     "_Divers_/img/Pasted image 20231101195813.png",
-    "Excalidraw/Drawing 2023-10-31 04.44.36.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-31 04.44.14.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-27 12.35.37.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-27 12.35.31.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-27 11.38.44.excalidraw.md",
-    "X86_Linux/GDB.md",
-    "note.md",
-    "_Divers_/Templates/Divers/Book.md",
-    "swag.md",
-    "write_UP/BOX/hackthebox/easy/nteeon.md",
-    "Cours/python/x_in_y.md",
-    "_Divers_/Templates/Divers/Note.md",
-    "Cours/python/Beautifulsoup (web scrapper ).md",
-    "Command SOS/Password/Password local et protocols.md",
     "write_UP/BOX/hackthebox/easy",
     "write_UP/BOX/hackthebox",
     "write_UP/BOX",
     "write_UP",
-    "Command SOS/Linux/Login Brut Forcing.md",
-    "Command SOS/Password/Introduction to Brute Forcing SC.md",
     "Excalidraw",
     "X86_Linux",
     "Cours/python",

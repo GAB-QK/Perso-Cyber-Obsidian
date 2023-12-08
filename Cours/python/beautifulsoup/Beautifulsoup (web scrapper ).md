@@ -116,3 +116,4 @@ response = requests.post(webhook_url, json=payload, headers=headers)
 >On reçoit donc sur notre serveur discord le résultat suivant 
 
 ![[Pasted image 20230503133033.png]]
+

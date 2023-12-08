@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"3887a7e27a1085e0","type":"text","text":"```python\noptions = get_arguments()\n```","x":-200,"y":-260,"width":343,"height":112},
+		{"id":"78af2cb1a5f5946b","type":"text","text":"```python\nchange_mac(options.interface, options.new_mac)\n```","x":-525,"y":420,"width":520,"height":100},
+		{"id":"b4a988fd55b4059e","type":"text","text":"```python\ndef get_arguments():\n\t# Création d'un objet OptionParser pour gérer les arguments en ligne de commande\n\tparser = optparse.OptionParser()\n\tparser.add_option(\"-i\", \"--interface\", dest=\"interface\", help=\"Interface to change MAC address\")\n\tparser.add_option(\"-m\", \"--mac\", dest=\"new_mac\", help=\"New MAC address\")\n\t# Analyse des arguments passés en ligne de commande\n\t(options, arguments) = parser.parse_args()\n\t\n\t# Vérification de la présence de l'option \"interface\" et \"new_mac\"\n\tif not options.interface:\n\t\tparser.error(\"[-] Please specify an interface, use --help for more info.\")\n\telif not options.new_mac:\n\t\tparser.error(\"[-] Please specify a new MAC, use --help for more info.\")\n\treturn options\n```","x":-852,"y":-103,"width":995,"height":440},
+		{"id":"024937b6cd6819fa","type":"text","text":"```python\ndef change_mac(interface, new_mac):\n\tprint(\"[+] Changing MAC address for \" + interface + \" to \" + new_mac)\n\t# Mise de l'interface réseau en mode \"down\"\n\tsubprocess.call([\"ifconfig\", interface, \"down\"])\n\t# Changement de l'adresse MAC de l'interface réseau\n\tsubprocess.call([\"ifconfig\", interface, \"hw\", \"ether\", new_mac])\n\t# Mise de l'interface réseau en mode \"up\"\n\tsubprocess.call([\"ifconfig\", interface, \"up\"])\n```","x":-852,"y":625,"width":995,"height":280},
+		{"id":"52a30c1e4db78e2a","type":"text","text":"récupère les arguments des appels du script","x":235,"y":-340,"width":250,"height":60,"color":"4"},
+		{"id":"5cbb52468de1c05d","type":"text","text":"On appelle ensuite la fonction `get_current_mac` pour récuperer la mac de notre interface ","x":210,"y":-56,"width":300,"height":90,"color":"#4e3ec1"},
+		{"id":"bd863087937506a7","type":"text","text":"On souhaite ensuite changer notre adresse mac avec les arguments précisés plus tot avec `change_mac(interface, new_mac`","x":210,"y":380,"width":330,"height":120,"color":"#4e3ec1"},
+		{"id":"0ca646db6c643ddd","type":"text","text":"```python\ncurrent_mac = get_current_mac(options.interface)\nif current_mac == options.new_mac:\n\tprint(\"[+] MAC address was successfully changed to \" + current_mac)\nelse:\n\tprint(\"[-] MAC address did not get changed.\")\n```","x":720,"y":960,"width":702,"height":209},
+		{"id":"6955bc4e42a6f09e","type":"text","text":"```python\ndef get_current_mac(interface):\n    ifconfig_result = subprocess.check_output([\"ifconfig\", interface])\n   # Utilisation de la méthode \"decode\" pour convertir le résultat de la commande \"ifconfig\" en chaine de caractères\n    mac_address_search_result = re.search(r\"\\w\\w:\\w\\w:\\w\\w:\\w\\w:\\w\\w:\\w\\w\", ifconfig_result.decode())\n    # Vérification de la présence d'une adresse MAC\n    if mac_address_search_result:\n        return mac_address_search_result.group(0) # .group(0) permet de retourner le resultat exact de la recherche\n    else:\n        print(\"[-] Could not read MAC address.\")\n```","x":640,"y":254,"width":1000,"height":343},
+		{"id":"744d2e9eecad2490","type":"text","text":"```python\ncurrent_mac = get_current_mac(options.interface)\n\nprint(\"Current MAC = \" + str(current_mac))\n```","x":640,"y":-11,"width":500,"height":184},
+		{"id":"dde5c647e2f085c2","type":"text","text":"On gère ensuite le bon changement de l'adresse mac","x":210,"y":815,"width":300,"height":90,"color":"4"}
+	],
+	"edges":[
+		{"id":"e358c6e50e8ed1e2","fromNode":"52a30c1e4db78e2a","fromSide":"bottom","toNode":"5cbb52468de1c05d","toSide":"top"},
+		{"id":"589e41493c4cfac6","fromNode":"5cbb52468de1c05d","fromSide":"bottom","toNode":"bd863087937506a7","toSide":"top"},
+		{"id":"60397082f5767c5b","fromNode":"bd863087937506a7","fromSide":"bottom","toNode":"dde5c647e2f085c2","toSide":"top"},
+		{"id":"f39e9ce73387adcd","fromNode":"3887a7e27a1085e0","fromSide":"left","toNode":"b4a988fd55b4059e","toSide":"top"},
+		{"id":"c0ded49973f28107","fromNode":"52a30c1e4db78e2a","fromSide":"left","toNode":"3887a7e27a1085e0","toSide":"top"},
+		{"id":"f611dc9d870017af","fromNode":"5cbb52468de1c05d","fromSide":"right","toNode":"744d2e9eecad2490","toSide":"top"},
+		{"id":"f4cb0cc9f8ebc84e","fromNode":"744d2e9eecad2490","fromSide":"right","toNode":"6955bc4e42a6f09e","toSide":"top"},
+		{"id":"852d67322893ba98","fromNode":"78af2cb1a5f5946b","fromSide":"bottom","toNode":"024937b6cd6819fa","toSide":"top"},
+		{"id":"0b72834c07583796","fromNode":"bd863087937506a7","fromSide":"left","toNode":"78af2cb1a5f5946b","toSide":"right"},
+		{"id":"eea01ede7c82b123","fromNode":"dde5c647e2f085c2","fromSide":"right","toNode":"0ca646db6c643ddd","toSide":"top"}
+	]
+}

@@ -31854,7 +31854,7 @@
             "containerId": null,
             "originalText": "kubelet",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "created": 1680951106141,
@@ -33332,7 +33332,7 @@
             "containerId": null,
             "originalText": "api",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "created": 1680951096623,
@@ -34810,7 +34810,7 @@
             "containerId": null,
             "originalText": "c-m",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "created": 1680951087748,
@@ -36287,7 +36287,7 @@
             "containerId": null,
             "originalText": "sched",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "mfFkzn8BQyEfO_n_glLJo",
@@ -37879,7 +37879,7 @@
             "containerId": null,
             "originalText": "k-proxy",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "wuRqizROpzrmPZTKETwZb",
@@ -39357,7 +39357,7 @@
             "containerId": null,
             "originalText": "c-cm",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "A2dOeHpfTaa_JMEyfPA7i",
@@ -42274,7 +42274,7 @@
             "containerId": null,
             "originalText": "master",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "XDzlFbuXuFXj9pfHA9U4f",
@@ -45419,7 +45419,7 @@
             "containerId": null,
             "originalText": "node",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "x_0HTp6vDsQLFZxDZ1v-w",
@@ -46450,7 +46450,7 @@
             "containerId": null,
             "originalText": "etcd",
             "lineHeight": 1.25,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "-oQFHMsBT7m9rihX9w7OL",

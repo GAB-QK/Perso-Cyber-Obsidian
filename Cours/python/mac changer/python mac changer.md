@@ -6,11 +6,11 @@ type: note
 ---
 
 #  python
-- **🏷️Tags** :  #12-2023 #python #courses #mac_adresse #cyber
+- **🏷️Tags** :  #12-2023 #python #courses #mac_adresse #cyber #scripting 
 
-## 📝 Code
+## 📝 Codes
 
-### Mac changer
+### Mac changer 
 
 ```python
 #!/usr/bin/env python

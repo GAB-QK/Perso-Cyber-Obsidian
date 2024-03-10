@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"849f0e27873703e8","type":"text","text":"```python\noptions = get_arguments()\n```","x":-594,"y":-674,"width":343,"height":112},
+		{"id":"241651f48e26a984","type":"text","text":"```python\ndef get_arguments():\n\tparser = optparse.OptionParser()\n\tparser.add_option(\"-t\", \"--target\", dest=\"target\", help=\"Target IP / IP range.\")\n\t(options, arguments) = parser.parse_args()\n\t\n\tif not options.target:\n\t\tparser.error(\"[-] Please specify a target, use --help for more info.\")\n\treturn options\n```","x":-1246,"y":-517,"width":995,"height":297},
+		{"id":"5cb3eb1ac811d0be","type":"text","text":"récupère les arguments des appels du script","x":-159,"y":-754,"width":250,"height":60,"color":"4"},
+		{"id":"e4a5c257630f486b","type":"text","text":"On appelle ensuite la fonction `print_result` avec comme argument la fonction de scan","x":-184,"y":-470,"width":300,"height":90,"color":"#4e3ec1"},
+		{"id":"cd4aaf528ae5624f","type":"text","text":"```python\nprint_result(scan(options.target))\n```","x":246,"y":-425,"width":500,"height":105},
+		{"id":"cff44737669daaee","x":-159,"y":200,"width":250,"height":60,"color":"4","type":"text","text":"Appel de la fonction scan(ip)"},
+		{"id":"85d8476c6b57279a","type":"text","text":"```python\ndef scan(ip):\n    arp_request = scapy.ARP(pdst=ip)\n    broadcast = scapy.Ether(dst=\"ff:ff:ff:ff:ff:ff\")\n    arp_request_broadcast = broadcast/arp_request # Création d'un objet ARP sur le réseau local\n    answered_list = scapy.srp(arp_request_broadcast, timeout=1, verbose=False)[0] \n\n    client_list = []\n    for element in answered_list:\n        client_dict = {\"ip\": element[1].psrc, \"mac\": element[1].hwsrc} # psrc = IP source, hwsrc = MAC source\n        client_list.append(client_dict)\n    return client_listdef scan(ip):\n```","x":-1184,"y":260,"width":1000,"height":380},
+		{"id":"6472a1ea36e85f1e","type":"text","text":"```python\ndef print_result(results_list):\n\tprint(\"IP\\t\\t\\tMAC Address\\n-----------------------------------------\")\n\tfor client in results_list:\n\t\tprint(client[\"ip\"] + \"\\t\\t\" + client[\"mac\"])\n```","x":116,"y":-120,"width":1000,"height":186}
+	],
+	"edges":[
+		{"id":"75e20c8e7b4033b6","fromNode":"849f0e27873703e8","fromSide":"left","toNode":"241651f48e26a984","toSide":"top"},
+		{"id":"cca7873c5d508eb0","fromNode":"5cb3eb1ac811d0be","fromSide":"left","toNode":"849f0e27873703e8","toSide":"top"},
+		{"id":"a23cd665754f645c","fromNode":"5cb3eb1ac811d0be","fromSide":"bottom","toNode":"e4a5c257630f486b","toSide":"top"},
+		{"id":"0cf90a90e4dc53b4","fromNode":"e4a5c257630f486b","fromSide":"right","toNode":"cd4aaf528ae5624f","toSide":"top"},
+		{"id":"7064f4bf453221c4","fromNode":"cd4aaf528ae5624f","fromSide":"bottom","toNode":"6472a1ea36e85f1e","toSide":"top"},
+		{"id":"abacd1078dc179f6","fromNode":"6472a1ea36e85f1e","fromSide":"bottom","toNode":"cff44737669daaee","toSide":"top"},
+		{"id":"85580dded69548f1","fromNode":"cff44737669daaee","fromSide":"left","toNode":"85d8476c6b57279a","toSide":"top"},
+		{"id":"a28b55278590347c","fromNode":"e4a5c257630f486b","fromSide":"bottom","toNode":"cff44737669daaee","toSide":"top"}
+	]
+}

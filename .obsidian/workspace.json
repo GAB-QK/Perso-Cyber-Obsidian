@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command SOS/Linux/wifi_crack.md",
+                "file": "OSCP_CheatSheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command SOS/Linux/wifi_crack.md",
+                "file": "OSCP_CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command SOS/Linux/wifi_crack.md",
+                "file": "OSCP_CheatSheet.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command SOS/Linux/wifi_crack.md"
+                "file": "OSCP_CheatSheet.md"
               }
             }
           },
@@ -186,15 +186,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ced80249b0651439",
+  "active": "21727f9dc37c5487",
   "lastOpenFiles": [
-    "handbooks/06_wireless_attacks.md",
-    "Command SOS/Linux/wifi_crack.md",
-    "handbooks/iot.md",
-    "handbooks/_Table_of_content.md",
+    "conflict-files-obsidian-git.md",
     "OSCP_CheatSheet.md",
-    "THC_TIPS/README.md",
-    "THC_TIPS/tools/see files .sh tools.md",
+    "Handbooks/handbooks_List/_Table_of_content.md",
+    "Command SOS/Linux/wifi_crack.md",
+    "Handbooks/handbooks_List/wordlists.md",
+    "Handbooks/handbooks_List/templates.md",
+    "Handbooks/handbooks_List/privacy.md",
+    "Handbooks/handbooks_List/payloads.md",
+    "Handbooks/handbooks_List/osint.md",
+    "Handbooks/handbooks_List/operational_security.md",
+    "Handbooks/handbooks_List/mobile.md",
+    "Handbooks/handbooks_List/malware_development.md",
+    "Handbooks/handbooks_List/iot.md",
+    "Handbooks/handbooks_List/hardware.md",
+    "Handbooks/handbooks_List/frameworks.md",
+    "Handbooks/handbooks_List/exploitation.md",
+    "Handbooks/handbooks_List/evasion.md",
+    "Handbooks/handbooks_List/decrypter.md",
+    "Handbooks/handbooks_List/cve.md",
+    "Handbooks/handbooks_List/cryptography.md",
+    "Handbooks/handbooks_List/container.md",
+    "Handbooks/handbooks_List/command_and_control.md",
+    "Handbooks/handbooks_List/cloud.md",
+    "Handbooks/handbooks_List/bug_bounty.md",
+    "Handbooks/handbooks_List/blue_teaming.md",
+    "Handbooks/handbooks_List/basics.md",
+    "Handbooks/handbooks_List",
+    "Handbooks",
     "THC_TIPS/tools/whatserver.sh",
     "THC_TIPS/tools/upload_server.php",
     "THC_TIPS/tools/ghostip.sh",
@@ -203,27 +224,6 @@
     "THC_TIPS/tools",
     "tools/whatserver.sh",
     "tools/upload_server.php",
-    "tools/mkegg.sh",
-    "tools/ghostip.sh",
-    "README.md",
-    "handbooks/01_information_gathering.md",
-    "note.md",
-    "handbooks/wordlists.md",
-    "handbooks/templates.md",
-    "handbooks/privacy.md",
-    "handbooks/payloads.md",
-    "handbooks/osint.md",
-    "handbooks/operational_security.md",
-    "handbooks/mobile.md",
-    "handbooks/malware_development.md",
-    "handbooks/hardware.md",
-    "handbooks/frameworks.md",
-    "handbooks/exploitation.md",
-    "handbooks/evasion.md",
-    "handbooks/decrypter.md",
-    "handbooks/cve.md",
-    "handbooks/cryptography.md",
-    "handbooks/container.md",
     "exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE/screenshots/2.png",
     "exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE/screenshots/1.png",
     "_Divers_/img/Screenshot_20231218_152800.png",

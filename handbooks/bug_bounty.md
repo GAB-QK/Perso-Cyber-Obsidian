@@ -1,5 +1,5 @@
 # Bug Bounty Handbook
-
+tag : #handbook
 - [Resources](#resources)
 
 ## Table of Contents

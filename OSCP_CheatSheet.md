@@ -1,11 +1,8 @@
-<p align="center">
-  <img width="300" height="300" src="/images/kali-linux.svg">
-</p>
+
+tag : #CheatSheet #OSCP
 
 # OSCP Cheat Sheet
 
-![GitHub stars](https://img.shields.io/github/stars/0xsyr0/OSCP?logoColor=yellow) ![GitHub forks](https://img.shields.io/github/forks/0xsyr0/OSCP?logoColor=purple) ![GitHub watchers](https://img.shields.io/github/watchers/0xsyr0/OSCP?logoColor=green)</br>
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/0xsyr0/OSCP) ![GitHub contributors](https://img.shields.io/github/contributors/0xsyr0/OSCP)
 
 Since this little project gets more and more attention, I decided to update it as often as possible to focus more helpful and absolutely necessary commands for the exam. At the moment the course seems not to cover `Active Directory Certificate Services (ADCS)` but I leave it the section about this topic in the cheat sheet. Maybe they add it to the course in the future.
 

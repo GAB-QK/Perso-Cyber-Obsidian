@@ -1,5 +1,5 @@
 # OSINT
-
+tag : #handbook #osint 
 - [Resources](#resources)
 
 ## Table of Contents

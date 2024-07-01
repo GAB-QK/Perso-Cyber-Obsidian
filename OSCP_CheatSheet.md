@@ -4,10 +4,6 @@ tag : #CheatSheet #OSCP
 # OSCP Cheat Sheet
 
 
-Since this little project gets more and more attention, I decided to update it as often as possible to focus more helpful and absolutely necessary commands for the exam. At the moment the course seems not to cover `Active Directory Certificate Services (ADCS)` but I leave it the section about this topic in the cheat sheet. Maybe they add it to the course in the future.
-
-Feel free to submit a pull request or reach out to me on [X](https://twitter.com/syr0_) for suggestions. Every contribution is appreciated!
-
 > [!IMPORTANT]
 > A guy on X got a point. Automatic exploitation tools like `sqlmap` are prohibited to use in the exam. The same goes for the automatic exploitation functionality of `LinPEAS`.
 > I am not keeping track of current guidelines related to those tools. For that I want to point out that I am not responsible if anybody uses a tool without double checking the latest exam restrictions and fails the exam.

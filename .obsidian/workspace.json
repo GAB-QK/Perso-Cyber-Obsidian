@@ -11,8 +11,12 @@
             "id": "ced80249b0651439",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Command SOS/Linux/wifi_crack.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#resource",
+                "query": "wifi",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Command SOS/Linux/wifi_crack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Command SOS/Linux/wifi_crack.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Command SOS/Linux/wifi_crack.md"
+              }
             }
           },
           {
@@ -181,6 +190,10 @@
   },
   "active": "ced80249b0651439",
   "lastOpenFiles": [
+    "Command SOS/Linux/Screen.md",
+    "Command SOS/Linux/wifi_crack.md",
+    "Handbooks/handbooks_List/06_wireless_attacks.md",
+    "Command SOS/Linux/Screen",
     "OSCP_CheatSheet.md",
     "Command SOS/Write_up/PWN/Racecar.md",
     "Command SOS/Windows/Basic Windows.md",
@@ -204,9 +217,6 @@
     "BashBunny/Command.md",
     "je.md",
     "conflict-files-obsidian-git.md",
-    "Handbooks/handbooks_List/_Table_of_content.md",
-    "Command SOS/Linux/wifi_crack.md",
-    "Handbooks/handbooks_List/wordlists.md",
     "Handbooks/handbooks_List",
     "Handbooks",
     "THC_TIPS/tools/whatserver.sh",
@@ -216,7 +226,6 @@
     "THC_TIPS/tools/awk_netstat.sh",
     "THC_TIPS/tools",
     "tools/whatserver.sh",
-    "tools/upload_server.php",
     "exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE/screenshots/2.png",
     "exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE/screenshots/1.png",
     "_Divers_/img/Screenshot_20231218_152800.png",

@@ -73,6 +73,42 @@ iwconfig
 
 ```
 
+### Conversion du format pour bruteForce
+
+```bash
+hcxpcapngtool -o capture.22000 capture.cap
+```
+
+une fois le fichier convertie en format 22000 lancer le brutforce avec [[Screen]]  et hashcat 
+
+```bash
+hashcat -m 22000 capture.22000 -a 3 '?d?d?d?d?d?d?d?d'
+```
+
+#### Tableau des paramètres de hashcat 
+
+| Mask Symbol | Description                          | Character Set          |
+|-------------|--------------------------------------|------------------------|
+| `?d`        | Digit                                | 0 1 2 3 4 5 6 7 8 9    |
+| `?l`        | Lowercase letter                     | a b c d e f g h i j k l m n o p q r s t u v w x y z |
+| `?u`        | Uppercase letter                     | A B C D E F G H I J K L M N O P Q R S T U V W X Y Z |
+| `?s`        | Special symbol                       | ! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { | } ~ |
+| `?a`        | All printable ASCII characters       | Digits, lowercase, uppercase, and special symbols |
+| `?b`        | All 8-bit characters from ASCII      | 0x00 - 0xff           |
+| `?h`        | Lowercase hexadecimal                | 0 1 2 3 4 5 6 7 8 9 a b c d e f |
+| `?H`        | Uppercase hexadecimal                | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
+| `?D`        | Digits and special symbols           | 0 1 2 3 4 5 6 7 8 9 and special symbols |
+| `?L`        | Lowercase letters and digits         | Lowercase letters and digits |
+| `?U`        | Uppercase letters and digits         | Uppercase letters and digits |
+| `?X`        | Lowercase and uppercase letters      | Lowercase and uppercase letters |
+| `?Z`        | Uppercase letters and special symbols| Uppercase letters and special symbols |
+| `?f`        | All printable characters excluding space | Digits, lowercase, uppercase, and special symbols (excluding space) |
+
+### Examples
+- Digits only, 8 characters long: `?d?d?d?d?d?d?d?d`
+- Lowercase letters only, 6 characters long: `?l?l?l?l?l?l`
+- Mix of lowercase letters and digits, 10 characters long: `?l?l?l?l?d?d?d?d?d?d`
+- Printable ASCII characters, 12 characters long: `?a?a?a?a?a?a?a?a?a?a?a?a`
 
 ## Questions/Thoughts
 

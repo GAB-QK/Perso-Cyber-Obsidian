@@ -6,7 +6,7 @@ type: note
 ---
 
 #  WebHook
-- **🏷️Tags** :  #05-2023 
+- **🏷️Tags** :  #05-2023 #web #web_hook #server 
 
 ## 📝 Notes
 

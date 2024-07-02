@@ -1,6 +1,14 @@
-#XSS #web 
+---
+id: XSS
+created_date: 18/04/2024
+updated_date: 18/04/2024
+type: note
+---
 
-## Commands
+#  XSS
+- **🏷️Tags** :  #04-2024 #explotation #XSS #payloads #php #scripting 
+
+## 📝 Notes
 
 | Code                                                                                          | Description                       |     |
 | --------------------------------------------------------------------------------------------- | --------------------------------- | --- |

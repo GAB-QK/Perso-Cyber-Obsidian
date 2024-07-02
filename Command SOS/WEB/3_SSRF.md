@@ -6,7 +6,7 @@ type: note
 ---
 
 #  3_SSRF SERVER-SIDE INCLUDES 
-- **🏷️Tags** :  #01-2023 
+- **🏷️Tags** :  #01-2023 #SSRF #payloads #reverse_shell 
 
 ## 📝 Notes
 

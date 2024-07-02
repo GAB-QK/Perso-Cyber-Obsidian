@@ -6,7 +6,7 @@ type: note
 ---
 
 #  2_SSRF BLIND EXAMPLE
-- **🏷️Tags** :  #01-2023 #bash #SSRF #web #javascript #blind
+- **🏷️Tags** :  #01-2023 #bash #SSRF #web #javascript #blind #reverse_shell #payloads 
 
 ## 📝 Notes
 

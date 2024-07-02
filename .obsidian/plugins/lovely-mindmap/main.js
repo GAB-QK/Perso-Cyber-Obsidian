@@ -566,16 +566,31 @@ var LovelyMindmap = class extends import_obsidian2.Plugin {
       if (!!this.canvas) {
         clearInterval(this.intervalTimer.get("canvas"));
       }
-    }, 1e3);
+    }, 100);
     if (!this.intervalTimer.get("canvas")) {
       this.intervalTimer.set("canvas", timer);
     }
   }
-  async onload() {
-    await this.setting.loadSettings();
-    this.addSettingTab(new Setting(this));
-    this.keymap.registerAll();
+  onActiveLeafChange() {
+    this.app.workspace.on("active-leaf-change", async (leaf) => {
+      var _a, _b;
+      const extension = (_b = (_a = leaf == null ? void 0 : leaf.view) == null ? void 0 : _a.file) == null ? void 0 : _b.extension;
+      if (extension === "canvas") {
+        this.onKeymap();
+        return;
+      }
+      this.onunload();
+    });
+  }
+  /**
+   * A series of events for canvas initialization
+   *
+   * - When switching away from the canvas viewport, remove the keyboard shortcuts and canvas instance.
+   * - When switching back to the canvas viewport, re-register the keyboard shortcuts and canvas instance.
+   */
+  onKeymap() {
     this.createCanvasInstance();
+    this.keymap.registerAll();
     this.addCommand({
       id: "blurNode",
       name: "Blur node",
@@ -587,6 +602,12 @@ var LovelyMindmap = class extends import_obsidian2.Plugin {
       ],
       checkCallback: () => this.keymap.blurNode()
     });
+  }
+  async onload() {
+    await this.setting.loadSettings();
+    this.addSettingTab(new Setting(this));
+    this.onActiveLeafChange();
+    this.onKeymap();
   }
   onunload() {
     this.keymap.unregisterAll();

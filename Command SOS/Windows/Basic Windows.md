@@ -1,4 +1,14 @@
-#command #basics #windows
+---
+id: Basic
+created_date: 18/04/2024
+updated_date: 18/04/2024
+type: note
+---
+
+#  Basic
+- **🏷️Tags** :  #04-2024 #Windows #PowerShell #CommandLine #SystemAdministration #BasicCommands
+
+## 📝 Notes
 
 | **Command** | **Description** |
 | --------------|-------------------|

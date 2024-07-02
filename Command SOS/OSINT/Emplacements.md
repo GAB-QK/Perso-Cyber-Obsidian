@@ -6,7 +6,7 @@ type: note
 ---
 
 #  Emplacements
-- **🏷️Tags** :  #04-2023 #osint 
+- **🏷️Tags** :  #04-2023 #osint #Social_Networks #Network #Search
 
 ## 📝 Notes
 

@@ -81,9 +81,27 @@ hcxpcapngtool -o capture.22000 capture.cap
 
 une fois le fichier convertie en format 22000 lancer le brutforce avec [[Screen]]  et hashcat 
 
+- pour digit:
 ```bash
 hashcat -m 22000 capture.22000 -a 3 '?d?d?d?d?d?d?d?d'
 ```
+
+- pour digit/uppercase/lowcase
+  ```bash 
+  hashcat -m 22000 capture.22000 -a 3 '?1?1?1?1?1?1?1?1' -1 ?d?l?u
+  ```
+
+- mode performance:
+```bash
+hashcat -m 22000 capture.22000 -a 3 '?1?1?1?1?1?1?1?1' -1 ?d?l?u --force --optimized-kernel-enable --workload-profile=4 --hwmon-disable
+
+```
+
+>[!Tip] Infos:
+>- `--force` : force Hashcat à ignorer certains avertissements et à continuer l'exécution.
+>- `--optimized-kernel-enable` : utilise des kernels optimisés pour accélérer le processus de craquage.
+>- `--workload-profile=4` : définit le profil de charge de travail sur le niveau maximum (4). Les profils de charge de travail vont de 1 (léger) à 4 (lourd). Le niveau 4 maximise l'utilisation de la GPU, mais peut rendre le système moins réactif.
+>- `--hwmon-disable`:  enlève le triger sur la temperature du device
 
 #### Tableau des paramètres de hashcat 
 
